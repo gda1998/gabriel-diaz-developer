@@ -1,12 +1,13 @@
 import React, { useRef } from 'react';
-import { Link } from 'react-router-dom';
 
+import { useLang } from '../../hooks/useLang';
 import navLinks from '../../data/navLinks';
 import { NavItem } from '../includes/NavItem';
 
 export const NavBar = () => {
     const navBarRef = useRef();
     const navToggleRef = useRef();
+    const [ t, handleLangToggle ] = useLang();
 
     const handleToggle = () => {
         // Navbar
@@ -24,7 +25,11 @@ export const NavBar = () => {
                 {
                     navLinks.map( item => <NavItem key={item.path} {...item} />)
                 }
-                <li> <Link to="/home">English</Link> </li>
+                <li>
+                    <button className="btn link" onClick={ handleLangToggle }>
+                        { t('header.lang') }
+                    </button>
+                </li>
             </ul>
             <i className="bi bi-list mobile-nav-toggle" onClick={ handleToggle } ref={ navToggleRef }></i>
 

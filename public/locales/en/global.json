@@ -1,0 +1,13 @@
+{
+    "header" : {
+        "home" : "Home",
+        "about" : "About",
+        "resume" : "Resume",
+        "services" : "Services",
+        "portfolio" : "Portfolio",
+        "contact" : "Contact",
+        "lang" : "Español",
+        "download-cv": "Download my CV",
+        "welcome-message" : "Hello. Welcome to my web page.<br/>My name is Gabriel Díaz and I'm a "
+    }
+}

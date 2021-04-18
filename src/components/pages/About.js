@@ -1,8 +1,10 @@
 import React from 'react';
+// import { useLang } from '../../hooks/useLang';
 import { useSectionShow } from '../../hooks/useSectionShow';
 
 export const About = () => {
     const [ sectionShow, changeSectionShow ] = useSectionShow();
+    // const [ t ] = useLang();
     changeSectionShow();
 
     return (

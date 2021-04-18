@@ -1,9 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { NavLink } from 'react-router-dom';
+
 import select from '../../helpers/select';
+import { NavLink } from 'react-router-dom';
+import { useLang } from '../../hooks/useLang';
 
 export const NavItem = ({ path, name }) => {
+    const [ t ] = useLang();
+
     const handleNavClick = () => {
         // Navbar Mobile
         const navbar = select('#navbar');
@@ -25,7 +29,7 @@ export const NavItem = ({ path, name }) => {
                 to={path} 
                 onClick={ handleNavClick } 
             >
-                { name }
+                { t(name) }
             </NavLink> 
         </li>
     )

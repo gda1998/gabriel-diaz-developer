@@ -1,27 +1,27 @@
 const navLinks = [
     {
         path: '/home', 
-        name: 'Home'
+        name: 'header.home'
     },
     {
         path: '/about', 
-        name: 'About'
+        name: 'header.about'
     },
     {
         path: '/resume', 
-        name: 'Resume'
+        name: 'header.resume'
     },
     {
         path: '/services', 
-        name: 'Services'
+        name: 'header.services'
     },
     {
         path: '/portfolio', 
-        name: 'Portfolio'
+        name: 'header.portfolio'
     },
     {
         path: '/contact', 
-        name: 'Contact'
+        name: 'header.contact'
     }
 ];
 

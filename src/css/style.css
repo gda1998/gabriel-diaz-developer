@@ -208,7 +208,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 30px;
 }
 
-.navbar a {
+.navbar a, .navbar .link {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -221,13 +221,13 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 
-.navbar a i {
+.navbar a i, .navbar .link i {
   font-size: 12px;
   line-height: 0;
   margin-left: 5px;
 }
 
-.navbar a:before {
+.navbar a:before, .navbar .link::before {
   content: "";
   position: absolute;
   width: 0;
@@ -240,12 +240,12 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s ease-in-out 0s;
 }
 
-.navbar a:hover:before, .navbar li:hover > a:before, .navbar .active:before {
+.navbar a:hover:before, .navbar li:hover > a:before, .navbar .active:before, .navbar .link:hover:before {
   visibility: visible;
   width: 25px;
 }
 
-.navbar a:hover, .navbar .active, .navbar li:hover > a {
+.navbar a:hover, .navbar .active, .navbar li:hover > a, .link:hover {
   color: var(--white-color);
 }
 
@@ -313,7 +313,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
-.navbar-mobile a {
+.navbar-mobile a, .navbar-mobile .link {
   font-size: 16px;
   position: relative;
 }
@@ -1172,18 +1172,8 @@ section .container {
 
 /* Custom */
 .word { 
-  padding-right: 14px;
-  position: relative;
-}
-
-.word:before {
-  content: '';
-  background-color: var(--main-color);
-  width: 3px;
-  position: absolute;
-  top: 0px;
-  bottom: 7px;
-  right: 7px;
+  padding-right: 5px;
+  border-right: 3px solid var(--main-color);
   animation: blinkNaim 500ms linear infinite;
 }
 
