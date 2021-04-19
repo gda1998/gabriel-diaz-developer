@@ -1,8 +1,8 @@
 import React from 'react';
-import { useLang } from '../../hooks/useLang';
+import { useLang } from '../../../hooks/useLang';
 
-import pdf_en from '../../docs/Gabriel_DIaz_Resume.pdf';
-import pdf_es from '../../docs/Curriculum_Gabriel_Diaz.pdf';
+import pdf_en from '../../../docs/Gabriel_DIaz_Resume.pdf';
+import pdf_es from '../../../docs/Curriculum_Gabriel_Diaz.pdf';
 
 
 export const ButtonCV = () => {

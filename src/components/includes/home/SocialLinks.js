@@ -1,6 +1,6 @@
 import React from 'react';
 
-import socialNetworks from '../../data/socialNetworks';
+import socialNetworks from '../../../data/socialNetworks';
 import { SocialLinkItem } from './SocialLinkItem';
 
 export const SocialLinks = () => {

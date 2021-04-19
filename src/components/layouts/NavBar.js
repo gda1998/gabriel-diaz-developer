@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 
 import { useLang } from '../../hooks/useLang';
 import navLinks from '../../data/navLinks';
-import { NavItem } from '../includes/NavItem';
+import { NavItem } from '../includes/home/NavItem';
 
 export const NavBar = () => {
     const navBarRef = useRef();

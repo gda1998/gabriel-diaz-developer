@@ -1,11 +1,10 @@
 import React from 'react';
-// import { useLang } from '../../hooks/useLang';
+import { useLang } from '../../hooks/useLang';
 import { useSectionShow } from '../../hooks/useSectionShow';
 
 export const About = () => {
-    const [ sectionShow, changeSectionShow ] = useSectionShow();
-    // const [ t ] = useLang();
-    changeSectionShow();
+    const sectionShow = useSectionShow();
+    const [ t ] = useLang();
 
     return (
         // ======= About Section =======
@@ -15,7 +14,7 @@ export const About = () => {
           <div className="about-me container">
       
             <div className="section-title">
-              <h2>About</h2>
+              <h2>{ t('header.about') }</h2>
               <p>Learn more about me</p>
             </div>
       
@@ -24,7 +23,7 @@ export const About = () => {
                 <img src="assets/img/me.jpg" className="img-fluid" alt="Profile" />
               </div>
               <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-                <h3>UI/UX &amp; Graphic Designer</h3>
+                <h3>{ t('words-cursor.web-developer') }</h3>
                 <p className="fst-italic">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                   magna aliqua.

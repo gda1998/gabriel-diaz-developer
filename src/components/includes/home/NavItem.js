@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import select from '../../helpers/select';
+import select from '../../../helpers/select';
 import { NavLink } from 'react-router-dom';
-import { useLang } from '../../hooks/useLang';
+import { useLang } from '../../../hooks/useLang';
 
 export const NavItem = ({ path, name }) => {
     const [ t ] = useLang();

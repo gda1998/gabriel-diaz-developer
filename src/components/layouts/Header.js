@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 import { useLang } from '../../hooks/useLang';
 
 import { NavBar } from './NavBar';
-import { SocialLinks } from '../includes/SocialLinks';
-import { ButtonCV } from '../includes/ButtonCV';
-import { TextAnimation } from '../includes/TextAnimation';
+import { SocialLinks } from '../includes/home/SocialLinks';
+import { ButtonCV } from '../includes/home/ButtonCV';
+import { TextAnimation } from '../includes/home/TextAnimation';
 
 export const Header = ({ isHome=false }) => {
 

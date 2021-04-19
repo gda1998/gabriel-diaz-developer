@@ -7,7 +7,12 @@
         "portfolio" : "Portfolio",
         "contact" : "Contact",
         "lang" : "Español",
-        "download-cv": "Download my CV",
+        "download-cv" : "Download my CV",
         "welcome-message" : "Hello. Welcome to my web page.<br/>My name is Gabriel Díaz and I'm a "
+    },
+    "words-cursor" : {
+        "web-developer" : "Web Developer",
+        "front-end-dev" : "Front End Developer",
+        "back-end-dev" : "Back End Developer"
     }
 }

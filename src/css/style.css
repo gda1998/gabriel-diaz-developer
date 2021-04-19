@@ -1171,10 +1171,9 @@ section .container {
 }
 
 /* Custom */
-.word { 
-  padding-right: 5px;
-  border-right: 3px solid var(--main-color);
-  animation: blinkNaim 500ms linear infinite;
+.cursor {
+  color: var(--main-color) !important;
+  padding-left: 1px;
 }
 
 .button{
