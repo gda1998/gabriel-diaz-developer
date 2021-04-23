@@ -1,4 +1,9 @@
 {
+    "words-cursor" : {
+        "web-developer" : "Web Developer",
+        "front-end-dev" : "Front End Developer",
+        "back-end-dev" : "Back End Developer"
+    },
     "header" : {
         "home" : "Home",
         "about" : "About",
@@ -7,12 +12,23 @@
         "portfolio" : "Portfolio",
         "contact" : "Contact",
         "lang" : "Español",
-        "download-cv" : "Download my CV",
-        "welcome-message" : "Hello. Welcome to my web page.<br/>My name is Gabriel Díaz and I'm a "
+        "download-cv" : "Download my Resume",
+        "welcome-message" : "Hello. Welcome to my web site.<br/>My name is {{ name }} and I'm a "
     },
-    "words-cursor" : {
-        "web-developer" : "Web Developer",
-        "front-end-dev" : "Front End Developer",
-        "back-end-dev" : "Back End Developer"
+    "about" : {
+        "learn" : "Learn more about me",
+        "message" : "¡Hello! Welcome to my web site. My name is {{ name }} y I'm a web application developer focused to portray the ideas from your head to a functional web system, using free and functional tools like {{ web_tools }} among others. I invite you to see the rest of my web site.",
+        "birthday" : "Birthday",
+        "age" : "Age",
+        "phone" : "Phone",
+        "email" : "Email",
+        "city" : "City",
+        "degree" : "Degree",
+        "freelance" : "Freelance",
+        "engineering" : "Engineering",
+        "avaible" : "Avaible",
+        "projects" : "Projects",
+        "hours_support" : "Hours Of Support",
+        "awards" : "Awards"
     }
 }

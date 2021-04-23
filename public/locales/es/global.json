@@ -1,4 +1,9 @@
 {
+    "words-cursor" : {
+        "web-developer" : "Desarrollador Web",
+        "front-end-dev" : "Desarrollador Front End",
+        "back-end-dev" : "Desarrollador Back End"
+    },
     "header" : {
         "home" : "Inicio",
         "about" : "Sobre Mí",
@@ -8,11 +13,22 @@
         "contact" : "Contacto",
         "lang" : "English",
         "download-cv": "Descarga mi CV",
-        "welcome-message" : "Hola. Bienvenido a mi página web.<br/>Mi nombre es Gabriel Díaz y soy un "
+        "welcome-message" : "Hola. Bienvenido a mi página web.<br/>Mi nombre es {{ name }} y soy un "
     },
-    "words-cursor" : {
-        "web-developer" : "Desarrollador Web",
-        "front-end-dev" : "Desarrollador Front End",
-        "back-end-dev" : "Desarrollador Back End"
+    "about" : {
+        "learn" : "Aprende más sobre mí",
+        "message" : "¡Hola! Bienvenido a mi página web. Mi nombre es {{ name }} y soy un desarrollador de aplicaciones web enfocado a plasmar las ideas de tu cabeza en un sistema web funcional, utilizando herramientas libres y funcionales como son {{ web_tools }} entre otros. Te invito a ver el resto de mi página web.",
+        "birthday" : "Cumpleaños",
+        "age" : "Edad",
+        "phone" : "Teléfono",
+        "email" : "Correo",
+        "city" : "Ciudad",
+        "degree": "Grado de estudios",
+        "freelance" : "Freelance",
+        "engineering" : "Ingeniería",
+        "avaible" : "Disponible",
+        "projects" : "Proyectos",
+        "hours_support" : "Horas de Trabajo",
+        "awards" : "Premios"
     }
 }

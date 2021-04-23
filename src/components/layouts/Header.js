@@ -21,7 +21,7 @@ export const Header = ({ isHome=false }) => {
             <h1> <Link to="/home">Gabriel Díaz</Link> </h1>
 
             <h2>
-                <small style={{ fontSize: '24px' }} dangerouslySetInnerHTML={{ __html: t('header.welcome-message') }} />
+                <small style={{ fontSize: '24px' }} dangerouslySetInnerHTML={{ __html: t('header.welcome-message', { name: 'Gabriel Díaz' }) }} />
                 <small style={{ fontSize: '24px' }}> <TextAnimation /> </small>
             </h2>
             <NavBar />
