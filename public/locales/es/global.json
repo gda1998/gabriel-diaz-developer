@@ -27,8 +27,25 @@
         "freelance" : "Freelance",
         "engineering" : "Ingeniería",
         "avaible" : "Disponible",
+        "skills" : "Habilidades",
+        "interests" : "Intereses",
+        "testimonials" : "Testimonios"
+    },
+    "counters-box" : {
         "projects" : "Proyectos",
         "hours_support" : "Horas de Trabajo",
         "awards" : "Premios"
+    },
+    "interests" : {
+        "programming" : "Programar",
+        "learn" : "Aprender nuevas cosas",
+        "read" : "Leer",
+        "drive" : "Manejar",
+        "explore" : "Explorar nuevos lugares",
+        "talk-friend" : "Platicar con un amigo",
+        "drink-beer" : "Tomar una cerveza",
+        "netflix" : "Un maratón de Netflix",
+        "videogames" : "Jugar videojuegos",
+        "social-media" : "Ver mis redes sociales"
     }
 }

@@ -1196,3 +1196,7 @@ section .container {
 .profile-img{
   text-align: center;
 }
+
+.skill, .skill > * {
+  font-size: 15px;
+}

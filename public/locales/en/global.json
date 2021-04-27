@@ -27,8 +27,25 @@
         "freelance" : "Freelance",
         "engineering" : "Engineering",
         "avaible" : "Avaible",
+        "skills" : "Skills",
+        "interests" : "Interests",
+        "testimonials" : "Testimonials"
+    },
+    "counters-box" : {
         "projects" : "Projects",
         "hours_support" : "Hours Of Support",
         "awards" : "Awards"
+    },
+    "interests" : {
+        "programming" : "Program",
+        "learn" : "Learn new things",
+        "read" : "Read",
+        "drive" : "Drive",
+        "explore" : "Explore new places",
+        "talk-friend" : "Talk with a friend",
+        "drink-beer" : "Drink a beer",
+        "netflix" : "Watch a Netflix marathon",
+        "videogames" : "Play videogames",
+        "social-media" : "Browse social networks"
     }
 }

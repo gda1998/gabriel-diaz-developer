@@ -1,15 +1,11 @@
 import React from 'react';
-import { PersonalInfoItem } from './PersonalInfoItem';
+
+import arraySlice from '../../../helpers/arraySlice';
 import personalInfo from '../../../data/personalInfo';
+import { PersonalInfoItem } from './PersonalInfoItem';
 
 export const PersonalInfo = () => {
-    const sizeOfArray = 4;
-    let personalInfoArrays = [];
-
-    for (let i = 0; i < personalInfo.length; i+= sizeOfArray) {
-        const newArray = personalInfo.slice(i, i + sizeOfArray);
-        personalInfoArrays = [...personalInfoArrays, newArray];
-    }
+    const personalInfoArrays = arraySlice(personalInfo, 4);
 
     return (
         <div className="row">{
