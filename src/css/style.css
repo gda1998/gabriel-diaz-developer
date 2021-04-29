@@ -587,8 +587,15 @@ section .container {
 }
 
 .testimonials .swiper-pagination {
-  margin-top: 20px;
+  /* I Changed position to asbolute and I added height and margin properties */
+  /* 
+  magin-top: 20px;
   position: relative;
+   */
+  margin-top: 20px;
+  position: absolute;
+  height: 50px;
+  margin: 0 0 -40px 0;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet {
