@@ -16,7 +16,7 @@
         "welcome-message" : "Hola. Bienvenido a mi página web.<br/>Mi nombre es {{ name }} y soy un "
     },
     "about" : {
-        "learn" : "Aprende más sobre mí",
+        "learn" : "Conoce más sobre mí",
         "message" : "¡Hola! Bienvenido a mi página web. Mi nombre es {{ name }} y soy un desarrollador de aplicaciones web enfocado a plasmar las ideas de tu cabeza en un sistema web funcional, utilizando herramientas libres y funcionales como son {{ web_tools }} entre otros. Te invito a ver el resto de mi página web.",
         "birthday" : "Cumpleaños",
         "age" : "Edad",
