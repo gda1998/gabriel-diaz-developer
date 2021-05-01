@@ -47,5 +47,20 @@
         "netflix" : "Un maratón de Netflix",
         "videogames" : "Jugar videojuegos",
         "social-media" : "Ver mis redes sociales"
+    },
+    "resume" : {
+        "check-resume" : "Checa mi experiencia",
+        "sumary" : "Resumén",
+        "introduction" : "Introducción",
+        "education" : "Educación",
+        "experience" : "Experiencia Profesional",
+        "sumary-text" : "Egresado de una de las universidades más importantes de la ciudad de Puebla, México, la UTP, he sido formado para poder diseñar y desarrollar aplicaciones web utilizando tecnologías libres y de alto nivel, como {{ web_tools }} entre otros. <br/>En lo personal soy una persona responsable, autodidacta y perfeccionista con el trabajo que hace."
+    },
+    "services" : {
+        "my-services" : "Mis Servicios",
+        "back-end" : "Desarrollo Back End",
+        "front-end" : "Desarrollo Front End",
+        "back-end-text" : "Transforma la lógica de tu negocio en la lógica interna y funcionamiento de tu página web.",
+        "front-end-text" : "Convierte tu aplicación web en un sistema de interacción fácil y sencilla entre el usuario y el servidor."
     }
 }

@@ -13,9 +13,7 @@ export const PersonalInfo = () => {
                 <div key={`divPersonalInfo${i}`} className="col-lg-6">
                     <ul>
                         {
-                            personalInfo.map( item => (
-                                <PersonalInfoItem key={item.name} {...item} />
-                            ))
+                            personalInfo.map( item => <PersonalInfoItem key={item.name} {...item} /> )
                         }
                     </ul>
                 </div>

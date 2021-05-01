@@ -4,8 +4,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Pagination, Autoplay, Mousewheel } from 'swiper';
 
 import { useLang } from '../../../hooks/useLang';
-import testimonialsEn from '../../../data/testimonialsEn';
-import testimonialsEs from '../../../data/testimonialsEs';
+import testimonialsEn from '../../../data/en/testimonialsEn';
+import testimonialsEs from '../../../data/es/testimonialsEs';
 import { TestimonialItem } from './TestimonialItem';
 
 // install Swiper modules
@@ -38,8 +38,8 @@ export const Testimonials = () => {
                 >
                     {
                         testimonials.map( item => (
-                            <SwiperSlide>
-                                <TestimonialItem key={ item.key } { ...item } />
+                            <SwiperSlide key={ item.id } >
+                                <TestimonialItem { ...item } />
                             </SwiperSlide>
                         ))
                     }
