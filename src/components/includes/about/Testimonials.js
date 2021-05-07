@@ -11,7 +11,7 @@ import { TestimonialItem } from './TestimonialItem';
 // install Swiper modules
 SwiperCore.use([ Pagination, Autoplay, Mousewheel ]);
 
-export const Testimonials = () => {
+export const Testimonials = React.memo( () => {
     const [ ,, lang ] = useLang();
     const testimonials = lang === 'en' ? testimonialsEn : testimonialsEs;
 
@@ -49,4 +49,4 @@ export const Testimonials = () => {
             </div>{/* /.swiper-wrapper */}
         </div>/* testimonials-slider swiper-container */
     )
-}
+})

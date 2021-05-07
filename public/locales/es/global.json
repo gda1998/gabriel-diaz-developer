@@ -62,5 +62,27 @@
         "front-end" : "Desarrollo Front End",
         "back-end-text" : "Transforma la lógica de tu negocio en la lógica interna y funcionamiento de tu página web.",
         "front-end-text" : "Convierte tu aplicación web en un sistema de interacción fácil y sencilla entre el usuario y el servidor."
+    },
+    "contact" : {
+        "contact-me" : "Contáctame",
+        "get-in-touch" : "Ponte en contacto conmigo",
+        "social-profiles" : "Mis Redes Sociales",
+        "email-me" : "Envíame un correo",
+        "call-me" : "Llámame",
+        "header-text" : "Si tienes algún proyecto en mente o simplemente quieres platicar conmigo, no dudes en contactarme ya sea por mis redes sociales, mi celular o enviandome un correo en el formulario de abajo. 😉"
+    },
+    "form" : {
+        "your-name" : "Tu Nombre",
+        "your-email" : "Tu Correo",
+        "subject" : "Asunto",
+        "message" : "Mensaje",
+        "send" : "Enviar Mensaje",
+        "only-alphabetic" : "El campo debe tener solamente caracteres alfabéticos.",
+        "field-requied" : "Este campo es obligatorio"
+    },
+    "messages" : {
+        "just-now" : "Justo ahora",
+        "email-sent" : "Correo Enviado",
+        "email-sent-text" : "El correo ha sido enviado exitosamente."
     }
 }

@@ -4,7 +4,7 @@ import { Waypoint } from 'react-waypoint';
 import countersBox from '../../../data/countersBox';
 import { CountBoxItem } from './CountBoxItem';
 
-export const CardsCounters = () => {
+export const CardsCounters = React.memo( () => {
 
     const [showCounter, setshowCounter] = useState(false);
 
@@ -27,4 +27,4 @@ export const CardsCounters = () => {
 
         </div>/* End Counts */
     );
-}
+})

@@ -16,7 +16,7 @@ const experienceEn = [
     {
         id: 'utp-ss',
         title: 'Instructor (Social Service)',
-        dates: '05/14/2018 - 08/24/2018',
+        dates: '09/13/2019 - 12/13/2019',
         place: 'Technological University of Puebla,',
         text: 'I taught to one teacher at my university to use technologies like AJAX and JavaScript, so that she could replicate that knowledge to her students.'
     },

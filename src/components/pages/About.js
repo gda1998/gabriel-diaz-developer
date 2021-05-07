@@ -8,8 +8,10 @@ import { CardsCounters } from '../includes/about/CardsCounters';
 import { Skills } from '../includes/about/Skills';
 import { Interests } from '../includes/about/Interests';
 import { Testimonials } from '../includes/about/Testimonials';
+import { ImgProfile } from '../includes/about/ImgProfile';
 
 export const About = () => {
+    // console.log('Componente About Renderizado');
     const sectionShow = useSectionShow();
     const [ t ] = useLang();
     const translationVars = { 
@@ -31,9 +33,7 @@ export const About = () => {
       
             <div className="row">
 
-              <div className="col-lg-4 profile-img" data-aos="fade-right">
-                <img src="assets/img/me.jpg" className="img-fluid" alt="Profile" />
-              </div>{/* .col-lg-4 */}
+              <ImgProfile />
 
               <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
                 <h3>{ t('words-cursor.web-developer') } Jr.</h3>

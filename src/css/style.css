@@ -1114,19 +1114,6 @@ section .container {
   padding: 12px 15px;
 }
 
-.contact .php-email-form button[type="submit"] {
-  background: var(--main-color);
-  border: 0;
-  padding: 10px 30px;
-  color: var(--white-color);
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.contact .php-email-form button[type="submit"]:hover {
-  background: #15bb62;
-}
-
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -1192,6 +1179,7 @@ section .container {
   padding: 13px 25px;
   border-radius: 40px;
   margin-top: 20px;
+  transition: 0.4s;
 }
 
 .button:hover{
@@ -1206,4 +1194,8 @@ section .container {
 
 .skill, .skill > * {
   font-size: 15px;
+}
+
+.form-control.is-invalid, .was-validated .form-control:invalid {
+  border: 1px solid #dc3545 !important;
 }

@@ -6,7 +6,7 @@ import skillsData from '../../../data/skillsData';
 import arraySlice from '../../../helpers/arraySlice';
 import { SkillItem } from './SkillItem';
 
-export const Skills = () => {
+export const Skills = React.memo( () => {
 
     const skillsArray = arraySlice(skillsData, 5);
 
@@ -39,4 +39,4 @@ export const Skills = () => {
 
         </div>/* /.row */
     )
-}
+})

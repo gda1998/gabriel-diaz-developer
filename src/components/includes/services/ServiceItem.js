@@ -6,7 +6,7 @@ export const ServiceItem = ({ title, text, icon, className }) => {
     const [ t ] = useLang();
 
     return (
-        <div className={ `col-md-6 align-items-stretch ${ className ? className : '' }` }>
+        <div className={ `col-md-6 ${ className ? className : '' }` }>
             <div className="icon-box">
                 <div className="icon">
                     <i className={ icon }></i>
