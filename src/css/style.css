@@ -1114,6 +1114,37 @@ section .container {
   padding: 12px 15px;
 }
 
+/*--------------------------------------------------------------
+# Error Page
+--------------------------------------------------------------*/
+.error-container {
+  line-height: 1.4;
+  text-align: center;
+}
+
+.error-container .header h1 {
+  font-size: 220px;
+  letter-spacing: 10px;
+  margin: 0px;
+  text-transform: uppercase;
+}
+
+.error-container h2 {
+  font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 480px) {
+  .error-container .header h1 {
+    font-size: 146px;
+  }
+  .error-container h2 {
+    font-size: 30px;
+  }
+}
+
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -1131,6 +1162,8 @@ section .container {
     transform: rotate(360deg);
   }
 }
+
+
 
 /*--------------------------------------------------------------
 # Credits
@@ -1164,7 +1197,9 @@ section .container {
   color: var(--white-color);
 }
 
-/* Custom */
+/*--------------------------------------------------------------
+  Custom
+--------------------------------------------------------------*/
 .cursor {
   color: var(--main-color) !important;
   padding-left: 1px;

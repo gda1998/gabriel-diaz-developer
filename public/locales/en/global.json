@@ -13,6 +13,7 @@
         "contact" : "Contact",
         "lang" : "Español",
         "download-cv" : "Download my Resume",
+        "back-home" : "Back to Home",
         "welcome-message" : "Hello. Welcome to my web site.<br/>My name is {{ name }} and I'm a "
     },
     "about" : {
@@ -81,8 +82,10 @@
         "field-requied" : "This field is required"
     },
     "messages" : {
-        "just-now" : "Just now",
-        "email-sent" : "Email Sent",
         "email-sent-text" : "The email has been sent successfully."
+    },
+    "errors" : {
+        "not-found-text" : "The page you are looking for was not found or was deleted.",
+        "recaptcha-token-invalid" : "Recaptcha authentication has failed. Try again."
     }
 }

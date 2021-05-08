@@ -13,6 +13,7 @@
         "contact" : "Contacto",
         "lang" : "English",
         "download-cv": "Descarga mi CV",
+        "back-home" : "Regresar al Inicio",
         "welcome-message" : "Hola. Bienvenido a mi página web.<br/>Mi nombre es {{ name }} y soy un "
     },
     "about" : {
@@ -81,8 +82,10 @@
         "field-requied" : "Este campo es obligatorio"
     },
     "messages" : {
-        "just-now" : "Justo ahora",
-        "email-sent" : "Correo Enviado",
         "email-sent-text" : "El correo ha sido enviado exitosamente."
+    },
+    "errors" : {
+        "not-found-text" : "La página que estás buscando no se encontró o fue eliminado.",
+        "recaptcha-token-invalid" : "La autenticación del Recaptcha ha fallado. Intentelo de nuevo."
     }
 }

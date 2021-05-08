@@ -36,7 +36,12 @@ export const FormContact = () => {
             return false;
         }
         // Validate Recaptcha
-        await recaptchaRef.current.executeAsync();
+        const token = await recaptchaRef.current.executeAsync();
+        if ( typeof token !== 'string' ) {
+            recaptchaRef.current.reset();
+            swalToast('error', t('errors.recaptcha-token-invalid'), 'bottom-end');
+            return false;
+        }
 
         // Send Email
         emailjs.sendForm('service_ue20u7k', 'template_udquiaf', e.target, 'user_5mpFv6mmg2y2NuNaoHL0w')
@@ -46,7 +51,7 @@ export const FormContact = () => {
             recaptchaRef.current.reset();
             swalToast('success', t('messages.email-sent-text'), 'bottom-end');
         }, 
-        (error) => console.error(error.text) );
+        (error) => swalToast('error', error.text, 'bottom-end') );
     }
 
     return (
