@@ -64,6 +64,9 @@
         "back-end-text" : "Transform your business logic into the internal logic and operation of your web app.",
         "front-end-text" : "Convert your web app into a easy and simple interaction system between the final user and the server."
     },
+    "portfolio" : {
+        "projects-worked" : "Projects Worked"
+    },
     "contact" : {
         "contact-me" : "Contact me",
         "get-in-touch" : "Get in touch with me",

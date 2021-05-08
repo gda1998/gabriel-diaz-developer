@@ -64,6 +64,9 @@
         "back-end-text" : "Transforma la lógica de tu negocio en la lógica interna y funcionamiento de tu página web.",
         "front-end-text" : "Convierte tu aplicación web en un sistema de interacción fácil y sencilla entre el usuario y el servidor."
     },
+    "portfolio" : {
+        "projects-worked" : "Proyectos Trabajados"
+    },
     "contact" : {
         "contact-me" : "Contáctame",
         "get-in-touch" : "Ponte en contacto conmigo",
