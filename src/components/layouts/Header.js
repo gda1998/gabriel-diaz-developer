@@ -15,24 +15,20 @@ export const Header = ({ isHome=false }) => {
     return (
         // ======= Header =======
         <header id="header" className={ !isHome ? 'header-top' : '' }>
-      
-          <div className="container">
-      
-            <h1> <Link to="/home">Gabriel Díaz</Link> </h1>
-
-            <h2>
-                <small style={{ fontSize: '24px' }} dangerouslySetInnerHTML={{ __html: t('header.welcome-message', { name: 'Gabriel Díaz' }) }} />
-                <small style={{ fontSize: '24px' }}> <TextAnimation /> </small>
-            </h2>
-            <NavBar />
-            <SocialLinks />
-            <ButtonCV />
-      
-          </div>{/* /.container */}
+            <div className="container">
+                <h1> <Link to="/home">Gabriel Díaz</Link> </h1>
+                <h2>
+                    <small style={{ fontSize: '24px' }} dangerouslySetInnerHTML={{ __html: t('header.welcome-message', { name: 'Gabriel Díaz' }) }} />
+                    <small style={{ fontSize: '24px' }}> <TextAnimation /> </small>
+                </h2>
+                <NavBar />
+                <SocialLinks />
+                <ButtonCV />
+            </div>{/* /.container */}
         </header>/* End Header */
-    )
+    );
 }
 
 Header.propTypes = {
     isHome: PropTypes.bool.isRequired
-};
+}

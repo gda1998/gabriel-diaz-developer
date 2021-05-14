@@ -85,7 +85,8 @@
         "field-requied" : "This field is required"
     },
     "messages" : {
-        "email-sent-text" : "The email has been sent successfully."
+        "email-sent-text" : "The email has been sent successfully.",
+        "loading" : "Loading..."
     },
     "errors" : {
         "not-found-text" : "The page you are looking for was not found or was deleted.",

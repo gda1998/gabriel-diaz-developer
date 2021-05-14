@@ -21,7 +21,6 @@ export const AppRouter = () => {
                 <Route exact path="/services" component={ Services } />   
                 <Route exact path="/portfolio" component={ Portfolio } />   
                 <Route exact path="/contact" component={ Contact } />   
-                <Route exact path="/lang" component={ Contact } />
                 { pathname === '/' ? 
                     <Redirect to="/home" /> : 
                     <Route component={ Error404 } />  

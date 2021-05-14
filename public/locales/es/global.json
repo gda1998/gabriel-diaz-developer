@@ -85,7 +85,8 @@
         "field-requied" : "Este campo es obligatorio"
     },
     "messages" : {
-        "email-sent-text" : "El correo ha sido enviado exitosamente."
+        "email-sent-text" : "El correo ha sido enviado exitosamente.",
+        "loading" : "Cargando..."
     },
     "errors" : {
         "not-found-text" : "La página que estás buscando no se encontró o fue eliminado.",
