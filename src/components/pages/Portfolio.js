@@ -1,38 +1,48 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLang } from '../../hooks/useLang';
 import { useSectionShow } from '../../hooks/useSectionShow';
+import { useImageFiltering } from '../../hooks/useImageFiltering';
 import { PortfolioContext } from '../../hooks/PortfolioContext';
 
 import { PortfolioFilters } from '../includes/portfolio/PortfolioFilters';
 import { PortfolioContainer } from '../includes/portfolio/PortfolioContainer';
-import { useImageFiltering } from '../../hooks/useImageFiltering';
-import imgPortfolioData from '../../data/imgPortfolioData';
+import { Modal } from '../includes/portfolio/Modal';
+
+import portfolioData from '../../data/portfolioData';
 
 export const Portfolio = () => {
-    console.log('Componente Renderizado');
     const [ t ] = useLang();
     const sectionShow = useSectionShow();
-    const [ setFilter, filteredImages ] = useImageFiltering(imgPortfolioData);
+    const [ setFilter, filteredImages, getNextPortfolio, getPrevPortfolio ] = useImageFiltering(portfolioData);
+    const [currentPortfolio, setCurrentPortfolio] = useState(filteredImages[0]);
 
     return (
-        // ======= Portfolio Section =======
-        <section id="portfolio" className={ `portfolio ${sectionShow}` } >
-            <div className="container" style={{ height: '100%' }} >
+        <PortfolioContext.Provider value={{
+            setFilter, 
+            filteredImages, 
+            getNextPortfolio, 
+            getPrevPortfolio,
+            currentPortfolio, 
+            setCurrentPortfolio
+        }}>
 
-                <div className="section-title">
-                    <h2>{ t('header.portfolio') }</h2>
-                    <p>{ t('portfolio.projects-worked') }</p>
-                </div>{/* /.section-title */}
+            <section id="portfolio" className={ `portfolio ${sectionShow}` } >
+            {/* ======= Portfolio Section ======= */}
+                <div className="container" style={{ height: '100%' }} >
 
-                <PortfolioContext.Provider value={{
-                    setFilter,
-                    filteredImages
-                }}>
+                    <div className="section-title">
+                        <h2>{ t('header.portfolio') }</h2>
+                        <p>{ t('portfolio.projects-worked') }</p>
+                    </div>{/* /.section-title */}
+
                     <PortfolioFilters />
                     <PortfolioContainer />
-                </PortfolioContext.Provider>
 
-            </div>{/* /.container */}
-        </section>/* End Portfolio Section */
-    )
+                </div>{/* /.container */}
+            </section>{/* End Portfolio Section */}
+
+            <Modal />
+
+        </PortfolioContext.Provider>
+    );
 }

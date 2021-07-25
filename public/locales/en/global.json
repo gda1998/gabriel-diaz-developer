@@ -65,7 +65,22 @@
         "front-end-text" : "Convert your web app into a easy and simple interaction system between the final user and the server."
     },
     "portfolio" : {
-        "projects-worked" : "Projects Worked"
+        "projects-worked" : "Projects Worked",
+        "all" : "All",
+        "work" : "Work",
+        "school" : "School",
+        "hobby" : "Hobby",
+        "project-info" : "Project Information",
+        "title" : "Title",
+        "category": "Category",
+        "client" : "Client",
+        "project-date" : "Project Date",
+        "close" : "Close",
+        "details" : "More Details",
+        "development-tools" : "Development Tools",
+        "functionality" : "Functionality",
+        "database" : "Data Base",
+        "design" : "Design"
     },
     "contact" : {
         "contact-me" : "Contact me",

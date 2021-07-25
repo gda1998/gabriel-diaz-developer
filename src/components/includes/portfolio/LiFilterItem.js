@@ -1,9 +1,11 @@
 import React, { useContext, useEffect } from 'react';
 import PropTypes from 'prop-types';
+import { useLang } from '../../../hooks/useLang';
 import { PortfolioContext } from '../../../hooks/PortfolioContext';
 import select from '../../../helpers/select';
 
 export const LiFilterItem = ({ name, data_filter }) => {
+    const [ t ] = useLang();
     const { setFilter } = useContext(PortfolioContext);
 
     useEffect(() => {
@@ -19,7 +21,7 @@ export const LiFilterItem = ({ name, data_filter }) => {
 
     return (
         <li onClick={ handleFilter }>
-            { name }
+            { t(name) }
         </li>
     );
 }

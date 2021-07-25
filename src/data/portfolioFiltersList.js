@@ -1,23 +1,23 @@
 const portfolioFiltersList = [
     {
         id: 'filter_all',
-        name: 'All',
+        name: 'portfolio.all',
         data_filter: '*'
     },
     {
-        id: 'filter_app',
-        name: 'App',
-        data_filter: 'app'
+        id: 'filter_work',
+        name: 'portfolio.work',
+        data_filter: 'work'
     },
     {
-        id: 'filter_card',
-        name: 'Card',
-        data_filter: 'card'
+        id: 'filter_school',
+        name: 'portfolio.school',
+        data_filter: 'school'
     },
     {
-        id: 'filter_web',
-        name: 'Web',
-        data_filter: 'web'
+        id: 'filter_hobby',
+        name: 'portfolio.hobby',
+        data_filter: 'hobby'
     }
 ];
 

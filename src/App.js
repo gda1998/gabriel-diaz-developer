@@ -4,24 +4,21 @@ import {
     Switch,
     Route
 } from 'react-router-dom';
-
 import { AppRouter } from './routes/AppRouter';
 
 import './config/i18next-config';
 import './css/style.css';
 
-
 export const App = () => {
+
     return (
         <Router>
             <div>
-                <Switch>
-
-                    <Suspense fallback="Loading Translates...">
+                <Suspense fallback="Loading Translates...">
+                    <Switch>
                         <Route path="/" component={ AppRouter } />
-                    </Suspense>
-
-                </Switch>
+                    </Switch>
+                </Suspense>
             </div>
         </Router>
     )

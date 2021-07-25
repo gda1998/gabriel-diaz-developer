@@ -65,7 +65,22 @@
         "front-end-text" : "Convierte tu aplicación web en un sistema de interacción fácil y sencilla entre el usuario y el servidor."
     },
     "portfolio" : {
-        "projects-worked" : "Proyectos Trabajados"
+        "projects-worked" : "Proyectos Trabajados",
+        "all" : "Todos",
+        "work" : "Laborales",
+        "school" : "Escolares",
+        "hobby" : "Hobby",
+        "project-info" : "Información del Proyecto",
+        "title" : "Título",
+        "category": "Categoría",
+        "client" : "Cliente",
+        "project-date" : "Fecha de desarrollo",
+        "close" : "Cerrar",
+        "details" : "Más Detalles",
+        "development-tools" : "Herramientas de Desarrollo",
+        "functionality" : "Funcionalidad",
+        "database" : "Base de Datos",
+        "design" : "Diseño"
     },
     "contact" : {
         "contact-me" : "Contáctame",

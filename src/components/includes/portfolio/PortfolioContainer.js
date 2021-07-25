@@ -1,7 +1,6 @@
 import React, { useContext } from 'react';
-
 import { PortfolioContext } from '../../../hooks/PortfolioContext';
-import { PortfolioItem } from './PortfolioItem';
+import { PortfolioContainerItem } from './PortfolioContainerItem';
 
 export const PortfolioContainer = () => {
     const { filteredImages } = useContext(PortfolioContext);
@@ -10,7 +9,12 @@ export const PortfolioContainer = () => {
         /* id, path, title, type */
         <div className="row portfolio-container">
             {
-                filteredImages.map( item => ( <PortfolioItem key={ item.id } { ...item } /> ) )
+                filteredImages.map( item => ( 
+                    <PortfolioContainerItem 
+                        key={ item.id } 
+                        item={ item }
+                    />) 
+                )
             }
         </div>/* /,row portfolio-container */
     );
