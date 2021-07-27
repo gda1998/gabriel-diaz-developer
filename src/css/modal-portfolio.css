@@ -41,16 +41,32 @@ Estilos Generales
 .modal-portfolio .container {
     padding-top: 30px;
 }
+
+.modal-body {
+    padding-left: initial !important;
+    padding-right: initial !important;
+}
+
+.modal-body-container {
+    position: relative;
+}
+
 /*--------------------------------------------------------------
 .btn-arrow, .btn-arrow-left, .btn-arrow-right
 --------------------------------------------------------------*/
 .modal-portfolio .btn-arrow {
+    align-items: center;
     background-color: var(--second-color-modal);
     border-radius: 5px;
-    color:var(--main-color-modal);
+    bottom: 0;
+    color: var(--main-color-modal);
     font-size: 2rem;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding: 0;
     position: absolute;
-    top: 50%;
+    top: 0;
     z-index: 1000;
 }
 
@@ -67,7 +83,7 @@ Estilos Generales
     transition: 0.4s;
 }
 
-@media (max-width: 635px){
+@media (max-width: 600px){
     .modal-portfolio .btn-arrow{
         display: none;
     }
@@ -79,7 +95,6 @@ Estilos Generales
 .modal-portfolio .portfolio-title {
     font-size: 26px;
     font-weight: 700;
-    /* padding-left: 2rem; */
 }
 
 .modal-portfolio .portfolio-info {
@@ -98,7 +113,7 @@ Estilos Generales
     font-size: 15px;
 }
 
-.modal-portfolio /* .portfolio-info */ ul li + li {
+.modal-portfolio ul li + li {
     margin-top: 10px;
 }
 

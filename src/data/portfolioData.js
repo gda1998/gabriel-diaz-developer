@@ -3,7 +3,7 @@ import usedTools from './usedTools';
 const portfolioData = [
     {
         id: 'htds_project',
-        path: 'assets/img/portfolio/htds/HTDS-1.png',
+        path: 'assets/img/portfolio/covers/HTDS.png',
         title: 'HTDS',
         type: 'portfolio.work',
         client: 'Humanly Software',
@@ -53,7 +53,7 @@ const portfolioData = [
     },
     {
         id: 'smac_project',
-        path: 'assets/img/portfolio/smac/SMAC-2.png',
+        path: 'assets/img/portfolio/covers/SMAC.png',
         title: 'SMAC',
         type: 'portfolio.work',
         client: 'T - Systems México S.A de C.V.',
@@ -98,7 +98,7 @@ const portfolioData = [
     },
     {
         id: 'scadci_project',
-        path: 'assets/img/portfolio/scadci/SCADCI-1.png',
+        path: 'assets/img/portfolio/covers/SCADCI.png',
         title: 'SCADCI',
         type: 'portfolio.work',
         client: 'T - Systems México S.A de C.V.',
@@ -143,7 +143,7 @@ const portfolioData = [
     },
     {
         id: 'helsa_project',
-        path: 'assets/img/portfolio/helsa/HELSA-5.png',
+        path: 'assets/img/portfolio/covers/HELSA.png',
         title: 'HELSA',
         type: 'portfolio.school',
         filter: 'school',
@@ -197,7 +197,7 @@ const portfolioData = [
     },
     {
         id: 'mecamex_project',
-        path: 'assets/img/portfolio/mecamex/MECAMEX-1.png',
+        path: 'assets/img/portfolio/covers/MECAMEX.png',
         title: 'MECAMEX',
         type: 'portfolio.school',
         filter: 'school',
@@ -235,7 +235,7 @@ const portfolioData = [
     },
     {
         id: 'componentes_project',
-        path: 'assets/img/portfolio/componentes/COMPONENTES-1_COVER.png',
+        path: 'assets/img/portfolio/covers/COMPONENTES.png',
         title: 'Componentes',
         type: 'portfolio.school',
         filter: 'school',
@@ -270,7 +270,7 @@ const portfolioData = [
     },
     {
         id: 'heroes_app',
-        path: 'assets/img/portfolio/heroes-app/HEROES-APP-1.png',
+        path: 'assets/img/portfolio/covers/HEROES-APP.png',
         title: 'Heroes App',
         type: 'portfolio.hobby',
         filter: 'hobby',
@@ -315,7 +315,7 @@ const portfolioData = [
     },
     {
         id: 'gif_app',
-        path: 'assets/img/portfolio/gif-app/GIF-APP-1.png',
+        path: 'assets/img/portfolio/covers/GIF-APP.png',
         title: 'Gif App',
         type: 'portfolio.hobby',
         filter: 'hobby',

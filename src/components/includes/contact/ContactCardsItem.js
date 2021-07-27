@@ -22,7 +22,7 @@ export const ContactCardsItem = ({ className, icon, title, text, fontSize }) => 
                             { text.includes('contact.') ? t(text) : text }
                         </p>
                     : 
-                        <SocialLinks />
+                        <SocialLinks displayBlock={{ display: 'block' }} />
                 }
             </div>
         </div>

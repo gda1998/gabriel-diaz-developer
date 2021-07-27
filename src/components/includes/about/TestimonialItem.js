@@ -10,7 +10,7 @@ export const TestimonialItem = ({ testimonial, imgPath, name, position }) => {
                     { testimonial }
                     <i className="bx bxs-quote-alt-right quote-icon-right" />
                 </p>
-                <img src={ imgPath } className="testimonial-img" alt={ name } />
+                <img loading="lazy" src={ imgPath } className="testimonial-img" alt={ name } />
                 <h3>{ name }</h3>
                 <h4>{ position }</h4>
             </div>

@@ -9,9 +9,8 @@ import { Skills } from '../includes/about/Skills';
 import { Interests } from '../includes/about/Interests';
 import { Testimonials } from '../includes/about/Testimonials';
 import { ImgProfile } from '../includes/about/ImgProfile';
-import { Loading } from '../includes/loading/Loading';
 
-const AboutComponent = () => {
+export const About = () => {
     const sectionShow = useSectionShow();
     const [ t ] = useLang();
     const translationVars = { 
@@ -73,5 +72,3 @@ const AboutComponent = () => {
         </section>/* End About Section */
     );
 }
-
-export const About = () => <Loading delay={ 500 } Component={ AboutComponent } />

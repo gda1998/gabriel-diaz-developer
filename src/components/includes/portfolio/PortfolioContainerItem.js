@@ -11,7 +11,7 @@ export const PortfolioContainerItem = ({ item }) => {
     return (
         <div className="col-lg-4 col-md-6 portfolio-item animate__animated animate__fadeInDown">
             <div className="portfolio-wrap">
-                <img src={ path } className="img-fluid" alt={ title } />
+                <img loading="lazy" src={ path } className="img-fluid" alt={ title } />
                 <div className="portfolio-info">
                     <h4>{ title }</h4>
                     <p>{ t(type) }</p>

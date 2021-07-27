@@ -1,10 +1,17 @@
 import React, { useContext, useState, useEffect } from 'react';
 import Glightbox from 'glightbox';
 import { PortfolioContext } from '../../../hooks/PortfolioContext';
-import { useLang } from '../../../hooks/useLang';
 
-import { ModalContainer } from './ModalContainer';
+// import { ModalContainer } from './ModalContainer';
 import '../../../css/modal-portfolio.css';
+import { ModalHeader } from './ModalHeader';
+import { ModalFooter } from './ModalFooter';
+import { ImgCarousel } from './ImgCarousel';
+import { PortfolioInfo } from './PortfolioInfo';
+import { UsedTools } from './UsedTools';
+import { ButtonsChangePortfolio } from './ButtonsChangePortfolio';
+
+// TODO: Modificar los lags que hay en la version movil y web
 
 export const Modal = () => {
     /* Obtenemos las funciones getPrevPortfolio del hook useImageFiltering
@@ -16,11 +23,8 @@ export const Modal = () => {
         setCurrentPortfolio
     } = useContext(PortfolioContext);
 
-    // Hook useLnag
-    const [ t ] = useLang();
-
     // Obtenemos los datos del portafolio que se muestra en turno
-    const { id, title } = currentPortfolio;
+    const { id } = currentPortfolio;
 
     // Este useState se utiliza cuando se abre y se cierra una ventana GlightBox
     const [GlightBoxIsOpen, setGlightBoxIsOpen] = useState(false);
@@ -46,14 +50,14 @@ export const Modal = () => {
     }
 
     /**
-     * Este metodo sirve para cambiar de portafolio y la pantalla de sea de un dispositivo menor o igual a 635px
+     * Este metodo sirve para cambiar de portafolio y la pantalla de sea de un dispositivo menor o igual a 600px
      * 
      * @param  {Event} e El evento del Click
      */
     const handleClickOnModal = (e) => {
-        /* Si el ancho de la pantalla es menor o igual a 635px, significa que se han ocultado los botones de cambio
+        /* Si el ancho de la pantalla es menor o igual a 600px, significa que se han ocultado los botones de cambio
         de portafolio y se quiere desplazar a otro portafolio  */
-        if (window.innerWidth <= 635) {
+        if (window.innerWidth <= 600) {
             // Obtenemos la longitud padding que hay en cada extremo del modal
             const marginModal = (window.innerWidth - document.querySelector('#carouselExampleControls').clientWidth) / 2;
 
@@ -117,7 +121,7 @@ export const Modal = () => {
         modal.addEventListener('hidePrevented.bs.modal', closeModal);
 
         return () => modal.removeEventListener('hidePrevented.bs.modal', closeModal);
-    }, [currentPortfolio, GlightBoxIsOpen]);
+    }, [GlightBoxIsOpen]);
 
     return (
         /* Modal */
@@ -127,26 +131,22 @@ export const Modal = () => {
         >
             <div className="modal-dialog modal-dialog-centered modal-fullscreen">
                 <div className="modal-content modal-portfolio">
-                    <div className="modal-header">
-                        <h2 className="modal-title portfolio-title" id="exampleModalLabel">
-                            { title }
-                        </h2>
-                        <button type="button" className="close" data-bs-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>{/* /.modal-header */}
-                    <div 
-                        className="modal-body"
-                        onClick= { handleClickOnModal }
-                    >
-                        <ModalContainer
-                            setKeyBoardDisable={ setKeyBoardDisable }
-                            changeCurrentPortfolio={ changeCurrentPortfolio }
-                        />
+                    <ModalHeader />
+                    <div className="modal-body" onClick= { handleClickOnModal }>
+
+                        <div className="modal-body-container">
+                            <div className="container">
+                                <div className="row">
+                                    <ImgCarousel setKeyBoardDisable={ setKeyBoardDisable } />
+                                    <PortfolioInfo />
+                                    <UsedTools />
+                                </div>{/* /.row */}
+                            </div>{/* /.container */}
+                            <ButtonsChangePortfolio changeCurrentPortfolio={ changeCurrentPortfolio } />
+                        </div>{/* /.modal-container */}
+
                     </div>{/* /.modal-body */}
-                    <div className="modal-footer">
-                        <button type="button" className="btn btn-sm btn-danger" data-bs-dismiss="modal">{ t('portfolio.close') }</button>
-                    </div>{/* /.modal-footer */}
+                    <ModalFooter />
                 </div>{/* /.modal-content */}
             </div>{/* /.modal-dialog */}
         </div>/* /.modal .fade */

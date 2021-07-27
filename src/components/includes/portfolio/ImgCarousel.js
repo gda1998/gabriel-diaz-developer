@@ -2,7 +2,9 @@ import React, { useContext } from 'react';
 import PropTypes from 'prop-types';
 import { PortfolioContext } from '../../../hooks/PortfolioContext';
 
+import { BtnCarouselItem } from './BtnCarouselItem';
 import { ImgCarouselItem } from './ImgCarouselItem';
+import { BtnChangeImage } from './BtnChangeImage';
 
 export const ImgCarousel = ({ setKeyBoardDisable }) => {
     const { currentPortfolio:{ images } } = useContext(PortfolioContext);
@@ -14,15 +16,11 @@ export const ImgCarousel = ({ setKeyBoardDisable }) => {
                 <div className="carousel-indicators">
                     {
                         images.map( (item, i) => 
-                        <button
+                        <BtnCarouselItem
                             key={ `buttonSlidetTo_${item.id}` }
-                            data-bs-target="#carouselExampleControls" 
-                            data-bs-slide-to={ i } 
-                            className={ `${ i === 0 ? 'active' : '' }` }
-                            onFocus={ () => setKeyBoardDisable(true) }
-                            onBlur={ () => setKeyBoardDisable(false) }
-                        >
-                        </button>)
+                            btnNumber={ i }
+                            setKeyBoardDisable={ setKeyBoardDisable }
+                        />)
                     }
                 </div>
                 <div className="carousel-inner">
@@ -30,29 +28,19 @@ export const ImgCarousel = ({ setKeyBoardDisable }) => {
                         images.map( item => <ImgCarouselItem key={ item.id } { ...item } />)
                     }
                 </div>
-                <button 
-                    type="button" 
-                    className={ `carousel-control-${ 'prev' }` }
-                    data-bs-target="#carouselExampleControls" 
-                    data-bs-slide={ 'prev' }
-                    onFocus={ () => setKeyBoardDisable(true) }
-                    onBlur={ () => setKeyBoardDisable(false) }
-                >
-                    <span className={ `carousel-control-${ 'prev' }-icon` } aria-hidden="true"></span>
-                </button>
-                <button 
-                    type="button" 
-                    className={ `carousel-control-${ 'next' }` }
-                    data-bs-target="#carouselExampleControls" 
-                    data-bs-slide={ 'next' }
-                    onFocus={ () => setKeyBoardDisable(true) }
-                    onBlur={ () => setKeyBoardDisable(false) }
-                >
-                    <span className={ `carousel-control-${ 'next' }-icon` } aria-hidden="true"></span>
-                </button>
+                <BtnChangeImage
+                    key="btnChangeImagePrev"
+                    side="prev"
+                    setKeyBoardDisable={ setKeyBoardDisable }
+                />
+                <BtnChangeImage
+                    key="btnChangeImageNext"
+                    side="next"
+                    setKeyBoardDisable={ setKeyBoardDisable }
+                />
             </div>{/* /.carouser .slide */}
         </div> // /.col-lg-8 */
-    )
+    );
 }
 
 ImgCarousel.propTypes = {

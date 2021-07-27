@@ -2,6 +2,8 @@ import React, { useContext } from 'react';
 import { useLang } from '../../../hooks/useLang';
 import { PortfolioContext } from '../../../hooks/PortfolioContext';
 
+import { LiPortfolioItem } from './LiPortfolioItem';
+
 import portfolioDataEn from '../../../data/en/portfolioDataEn';
 import portfolioDataEs from '../../../data/es/portfolioDataEs';
 
@@ -20,12 +22,13 @@ export const PortfolioInfo = () => {
         <div className="col-lg-4 portfolio-info">
             <h3>{ t('portfolio.project-info') }</h3>
             <ul>
-                <li><strong> { t('portfolio.title') } </strong>: { title }</li>
-                <li><strong> { t('portfolio.category') } </strong>: { t(type) }</li>
+                <LiPortfolioItem key="LiTitleProject" title="portfolio.title" text={ title } />
+                <LiPortfolioItem key="LiCategory" title="portfolio.category" text={ t(type) } />
                 {
-                    client && <li><strong> { t('portfolio.client') } </strong>: { client }</li>
+                    client &&
+                    <LiPortfolioItem key="LiClient" title="portfolio.client" text={ client } />
                 }
-                <li><strong> { t('portfolio.project-date') } </strong>: { project_dates }</li>
+                <LiPortfolioItem key="LiDates" title="portfolio.project-date" text={ project_dates } />
                 {
                     url && 
                     <li>

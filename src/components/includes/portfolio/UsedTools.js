@@ -3,6 +3,7 @@ import { useLang } from '../../../hooks/useLang';
 import { PortfolioContext } from '../../../hooks/PortfolioContext';
 
 import { UsedToolsItem } from './UsedToolsItem';
+import { LiPortfolioItem } from './LiPortfolioItem';
 
 export const UsedTools = () => {
     const [ t ] = useLang();
@@ -12,13 +13,12 @@ export const UsedTools = () => {
 
     return (
         <div className="col-md-12 mt-lg-3">
-            {/* TODO: Cambiar titulos de UsedTools */}
             <h3>{ t('portfolio.development-tools') }</h3>
             <div className="row">
                 {
                     func && 
                     <ul className={ `col-xs-12 col-sm-${ colSize } portfolio-used-tools` }>
-                        <li><strong>{ t('portfolio.functionality') }</strong></li>
+                        <LiPortfolioItem key="LiTitleFunc" title="portfolio.functionality" />
                         {
                             func.map( item => <UsedToolsItem key={item.id} { ...item } />)
                         }
@@ -27,7 +27,7 @@ export const UsedTools = () => {
                 {
                     db && 
                     <ul className={ `col-xs-12 col-sm-${ colSize } portfolio-used-tools` }>
-                        <li><strong>{ t('portfolio.database') }</strong></li>
+                        <LiPortfolioItem key="LiTitleDB" title="portfolio.database" />
                         {
                             db.map( item => <UsedToolsItem key={item.id} { ...item } />)
                         }
@@ -36,7 +36,7 @@ export const UsedTools = () => {
                 {
                     design && 
                     <ul className={ `col-xs-12 col-sm-${ colSize } portfolio-used-tools` }>
-                        <li><strong>{ t('portfolio.design') }</strong></li>
+                        <LiPortfolioItem key="LiTitleDesign" title="portfolio.design" />
                         {
                             design.map( item => <UsedToolsItem key={item.id} { ...item } />)
                         }

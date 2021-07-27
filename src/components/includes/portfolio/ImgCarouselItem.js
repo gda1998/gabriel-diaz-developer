@@ -6,7 +6,7 @@ export const ImgCarouselItem = ({ title, path, isActive }) => {
         <div className={ `carousel-item ${ isActive ? 'active' : '' }` }>
             <div className="portfolio-item">
                 <div className="portfolio-wrap">
-                    <img className="img-fluid" src={ path } alt={ title } />
+                    <img className="img-fluid" loading="lazy" src={ path } alt={ title } />
                     <div className="portfolio-info">
                         <h5>{ title }</h5>
                         <div className="portfolio-links">
