@@ -10,7 +10,7 @@ import { Interests } from '../includes/about/Interests';
 import { Testimonials } from '../includes/about/Testimonials';
 import { ImgProfile } from '../includes/about/ImgProfile';
 
-export const About = () => {
+const About = () => {
     const sectionShow = useSectionShow();
     const [ t ] = useLang();
     const translationVars = { 
@@ -72,3 +72,5 @@ export const About = () => {
         </section>/* End About Section */
     );
 }
+
+export default About;

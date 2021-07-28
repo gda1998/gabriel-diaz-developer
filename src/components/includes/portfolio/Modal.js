@@ -2,16 +2,13 @@ import React, { useContext, useState, useEffect } from 'react';
 import Glightbox from 'glightbox';
 import { PortfolioContext } from '../../../hooks/PortfolioContext';
 
-// import { ModalContainer } from './ModalContainer';
-import '../../../css/modal-portfolio.css';
 import { ModalHeader } from './ModalHeader';
 import { ModalFooter } from './ModalFooter';
 import { ImgCarousel } from './ImgCarousel';
 import { PortfolioInfo } from './PortfolioInfo';
 import { UsedTools } from './UsedTools';
 import { ButtonsChangePortfolio } from './ButtonsChangePortfolio';
-
-// TODO: Modificar los lags que hay en la version movil y web
+import '../../../css/modal-portfolio.css';
 
 export const Modal = () => {
     /* Obtenemos las funciones getPrevPortfolio del hook useImageFiltering

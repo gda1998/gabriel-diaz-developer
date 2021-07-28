@@ -1,9 +1,7 @@
 import React from 'react';
-import { useLang } from '../../../hooks/useLang';
 import { useSectionShow } from '../../../hooks/useSectionShow';
 
 export const LoadComponentDefault = () => {
-    const [ t ] = useLang();
     const sectionShow = useSectionShow();
     
     return (
@@ -13,7 +11,7 @@ export const LoadComponentDefault = () => {
             <div className="container">
 
                 <div className="text-center">
-                    <h1>{ t('messages.loading') }</h1>
+                    <h1>{ 'Loading...' }</h1>
                     <br />
                     <div className="spinner-border" role="status" />
                 </div>{/* /.text-center */}

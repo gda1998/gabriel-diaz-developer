@@ -10,7 +10,7 @@ import { Modal } from '../includes/portfolio/Modal';
 
 import portfolioData from '../../data/portfolioData';
 
-export const Portfolio = () => {
+const Portfolio = () => {
     const [ t ] = useLang();
     const sectionShow = useSectionShow();
     const [ setFilter, filteredImages, getNextPortfolio, getPrevPortfolio ] = useImageFiltering(portfolioData);
@@ -46,3 +46,5 @@ export const Portfolio = () => {
         </PortfolioContext.Provider>
     );
 }
+
+export default Portfolio;

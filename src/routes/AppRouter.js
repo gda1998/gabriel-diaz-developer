@@ -2,12 +2,13 @@ import React from 'react';
 import { Redirect, Route, Switch, useLocation } from 'react-router';
 
 import { Header } from '../components/layouts/Header';
-import { About } from '../components/pages/About';
 import { Resume } from '../components/pages/Resume';
 import { Services } from '../components/pages/Services';
-import { Portfolio } from '../components/pages/Portfolio';
 import { Contact } from '../components/pages/Contact';
 import { Error404 } from '../components/errors/Error404';
+
+const Portfolio = React.lazy( () => import('../components/pages/Portfolio') );
+const About = React.lazy( () => import('../components/pages/About') );
 
 export const AppRouter = () => {
     const { pathname } = useLocation();
