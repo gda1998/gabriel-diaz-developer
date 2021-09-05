@@ -26,7 +26,7 @@ export const NavBar = () => {
                     navLinks.map( item => <NavItem key={item.path} {...item} />)
                 }
                 <li>
-                    <button className="btn link" onClick={ handleLangToggle }>
+                    <button className="btn link btn-handle-toogle" onClick={ handleLangToggle }>
                         { t('header.lang') }
                     </button>
                 </li>

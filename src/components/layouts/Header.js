@@ -7,6 +7,8 @@ import { NavBar } from './NavBar';
 import { SocialLinks } from '../includes/home/SocialLinks';
 import { ButtonCV } from '../includes/home/ButtonCV';
 import { TextAnimation } from '../includes/home/TextAnimation';
+import { TourComponent } from '../includes/react-tour/TourComponent';
+import types from '../../types/types';
 
 export const Header = ({ isHome=false }) => {
 
@@ -15,6 +17,9 @@ export const Header = ({ isHome=false }) => {
     return (
         // ======= Header =======
         <header id="header" className={ !isHome ? 'header-top' : '' }>
+
+            { isHome && <TourComponent useModalOverlay={ false } pageName="home" type={ types.home } /> }
+            
             <div className="container">
                 <h1> <Link to="/home">Gabriel Díaz</Link> </h1>
                 <h2>

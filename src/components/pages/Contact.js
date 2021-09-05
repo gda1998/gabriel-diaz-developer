@@ -3,6 +3,8 @@ import { useLang } from '../../hooks/useLang';
 import { useSectionShow } from '../../hooks/useSectionShow';
 import { ContactCards } from '../includes/contact/ContactCards';
 import { FormContact } from '../includes/contact/FormContact';
+import { TourComponent } from '../includes/react-tour/TourComponent';
+import types from '../../types/types';
 
 export const Contact = () => {
     const sectionShow = useSectionShow();
@@ -11,6 +13,8 @@ export const Contact = () => {
     return (
         // ======= Contact Section =======
         <section id="contact" className={ `contact ${sectionShow}` }>
+
+            <TourComponent pageName="contact" type={ types.contact } />
             
             <div className="container">
 

@@ -780,7 +780,7 @@ section .container {
   margin: 0 auto 15px auto;
   list-style: none;
   text-align: center;
-  border-radius: 50px;
+  /* border-radius: 50px; */
   padding: 2px 15px;
   /* add this. prefixes for compabtibility */
   transform:translate3d(0,0,0);
@@ -1148,9 +1148,14 @@ section .container {
 }
 
 .button:hover{
-  background-color: #181a1b;
-  border: 1px solid var(--main-color);
-  color: var(--main-color);
+  background-color: #181a1b !important;
+  border: 1px solid var(--main-color) !important;
+  color: var(--main-color) !important;
+}
+
+.button-small{
+  font-size: .875rem;
+  padding: .5rem .75rem !important;
 }
 
 /* About */
@@ -1181,4 +1186,25 @@ section .container {
 
 .glightbox-clean .gslide-title{
   color: rgb(232, 230, 227);
+}
+
+/* Sherpherd JS */
+.shepherd-header{
+  background-color: rgb(38, 41, 43) !important;
+}
+
+.shepherd-text{
+  color: #e8e6e3;
+}
+
+.react-tour {
+  background-color: #181a1b;
+}
+
+.highlight {
+  border: 3px solid #EA0000 !important
+}
+
+.sherpherdTo75Percent{
+  width: 75% !important;
 }

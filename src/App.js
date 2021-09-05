@@ -5,10 +5,10 @@ import {
     Route
 } from 'react-router-dom';
 import { AppRouter } from './routes/AppRouter';
+import { LoadComponentDefault } from './components/includes/loading/LoadComponentDefault';
 
 import './config/i18next-config';
 import './css/style.css';
-import { LoadComponentDefault } from './components/includes/loading/LoadComponentDefault';
 
 export const App = () => {
 

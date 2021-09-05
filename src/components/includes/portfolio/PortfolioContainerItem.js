@@ -17,7 +17,7 @@ export const PortfolioContainerItem = ({ item }) => {
                     <p>{ t(type) }</p>
                     <div className="portfolio-links">
                         <button
-                            className="btn" 
+                            className="btn btn-portfolio" 
                             title={ t('portfolio.details') }
                             data-bs-toggle="modal" 
                             data-bs-target="#exampleModal"

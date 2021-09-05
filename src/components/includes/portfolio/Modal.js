@@ -56,14 +56,14 @@ export const Modal = () => {
         de portafolio y se quiere desplazar a otro portafolio  */
         if (window.innerWidth <= 600) {
             // Obtenemos la longitud padding que hay en cada extremo del modal
-            const marginModal = (window.innerWidth - document.querySelector('#carouselExampleControls').clientWidth) / 2;
+            const marginModal = window.innerWidth / 8;
 
-            // Si la posicion del click entra en el margen 0 a longitud_padding, entonces obtenemos el portafolio anterior
-            if (e.clientX >= 0 && e.clientX <= marginModal)
+            // Si la posicion del click entra en el margen 0 a 1/8 de la pantalla a la izq, entonces obtenemos el portafolio anterior
+            if (e.clientX >= 0 && e.clientX <= marginModal && !isKeyBoardDisable)
                 changeCurrentPortfolio('Left');
-            /* Si la posicion del click entra en el margen (longitud_pantalla - longitud_padding) a longitud_pantalla
+            /* Si la posicion del click entra en el margen a 1/8 de la pantalla a longitud_pantalla
             entonces obtenemos el siguiente portafolio */
-            if (e.clientX >= window.innerWidth - marginModal && e.clientX <= window.innerWidth)
+            if (e.clientX >= window.innerWidth - marginModal && e.clientX <= window.innerWidth && !isKeyBoardDisable)
                 changeCurrentPortfolio('Right');
         }
     }
