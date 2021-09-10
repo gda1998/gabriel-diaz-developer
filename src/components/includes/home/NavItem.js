@@ -1,9 +1,15 @@
+// * React Hooks
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import select from '../../../helpers/select';
-import { NavLink } from 'react-router-dom';
+// * Hooks and libraries
 import { useLang } from '../../../hooks/useLang';
+
+// * Components
+import { NavLink } from 'react-router-dom';
+
+// * Helpers
+import select from '../../../helpers/select';
 
 export const NavItem = ({ path, name }) => {
     const [ t ] = useLang();

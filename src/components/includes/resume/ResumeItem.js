@@ -1,6 +1,8 @@
+// * React Hooks
 import React from 'react';
 import PropTypes from 'prop-types';
 
+// * Data
 import cityDefault from '../../../data/cityDefault';
 
 export const ResumeItem = ({ title, dates, place, text }) => {

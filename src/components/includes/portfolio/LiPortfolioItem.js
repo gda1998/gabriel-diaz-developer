@@ -1,5 +1,8 @@
+// * React Hooks
 import React from 'react';
 import PropTypes from 'prop-types';
+
+// * Hooks and libraries
 import { useLang } from '../../../hooks/useLang';
 
 export const LiPortfolioItem = ({title, text}) => {

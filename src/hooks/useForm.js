@@ -1,4 +1,7 @@
+// * React Hooks
 import { useState } from 'react';
+
+// * Helpers
 import isEmptyInput from '../helpers/isEmptyInput';
 
 export const useForm = ( initialState = {} ) => {

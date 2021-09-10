@@ -1,7 +1,11 @@
+// * React Hooks
 import React from 'react';
+
+// * Hooks and libraries
 import { useLang } from '../../hooks/useLang';
 import { useSectionShow } from '../../hooks/useSectionShow';
 
+// * Components
 import { Education } from '../includes/resume/Education';
 import { Jobs } from '../includes/resume/Jobs';
 

@@ -1,4 +1,7 @@
+// * React Hooks
 import React from 'react';
+
+// * Hooks and libraries
 import { useHistory } from 'react-router-dom';
 import { useLang } from '../../hooks/useLang';
 import { useSectionShow } from '../../hooks/useSectionShow';

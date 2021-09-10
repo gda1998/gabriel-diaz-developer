@@ -1,14 +1,18 @@
+// * React Hooks
 import React, { useState } from 'react';
-import { Waypoint } from 'react-waypoint';
+import PropTypes from 'prop-types';
 
-import select from '../../../helpers/select';
-import skillsData from '../../../data/skillsData';
-import arraySlice from '../../../helpers/arraySlice';
+// * Components
+import { Waypoint } from 'react-waypoint';
 import { SkillItem } from './SkillItem';
 
-export const Skills = React.memo( () => {
+// * Helpers
+import arraySlice from '../../../helpers/arraySlice';
+import select from '../../../helpers/select';
 
-    const skillsArray = arraySlice(skillsData, 5);
+export const Skills = React.memo( ({ numColumns, numRows, data }) => {
+
+    const skillsArray = arraySlice(data, numRows);
 
     const [showPercent, setshowPercent] = useState(false);
 
@@ -27,7 +31,7 @@ export const Skills = React.memo( () => {
 
             {
                 skillsArray.map( (skillsData, i) => (
-                    <div key={ `colSkill${i}` } className="col-lg-4">
+                    <div key={ `colSkill${i}` } className={ `col-lg-${ 12 / numColumns }` }>
                         {
                             skillsData.map( item => (
                                 <SkillItem key={ `skill${item.name}` } data={ item } showPercent={ showPercent } />
@@ -40,3 +44,9 @@ export const Skills = React.memo( () => {
         </div>/* /.row */
     )
 })
+
+Skills.propTypes = {
+    numColumns: PropTypes.number.isRequired,
+    numRows: PropTypes.number.isRequired,
+    data: PropTypes.array.isRequired
+}

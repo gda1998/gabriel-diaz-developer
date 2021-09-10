@@ -1,5 +1,10 @@
+// * React Hooks
 import React, { useContext } from 'react';
+
+// * Hooks and libraries
 import { PortfolioContext } from '../../../hooks/PortfolioContext';
+
+// * Components
 import { PortfolioContainerItem } from './PortfolioContainerItem';
 
 export const PortfolioContainer = () => {

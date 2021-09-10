@@ -1,9 +1,15 @@
+// * React Hooks
 import React from 'react';
+
+// * Hooks and libraries
 import { useLang } from '../../../hooks/useLang';
 
+// * Components
+import { ResumeItem } from './ResumeItem';
+
+// * Data
 import educationEn from '../../../data/en/educationEn';
 import educationEs from '../../../data/es/educationEs';
-import { ResumeItem } from './ResumeItem';
 
 export const Education = () => {
     const [ ,, lang ] = useLang();

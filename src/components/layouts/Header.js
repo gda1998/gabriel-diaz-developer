@@ -1,13 +1,19 @@
+// * React Hooks
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
+
+// * Hooks and libraries
 import { useLang } from '../../hooks/useLang';
 
+// * Components
+import { TourComponent } from '../includes/react-tour/TourComponent';
+import { Link } from 'react-router-dom';
+import { TextAnimation } from '../includes/home/TextAnimation';
 import { NavBar } from './NavBar';
 import { SocialLinks } from '../includes/home/SocialLinks';
 import { ButtonCV } from '../includes/home/ButtonCV';
-import { TextAnimation } from '../includes/home/TextAnimation';
-import { TourComponent } from '../includes/react-tour/TourComponent';
+
+// * Types
 import types from '../../types/types';
 
 export const Header = ({ isHome=false }) => {

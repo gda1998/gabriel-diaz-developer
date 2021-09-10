@@ -1,9 +1,16 @@
+// * React Hooks
 import React from 'react';
-import { useLang } from '../../hooks/useLang';
+
+// * Hooks and libraries
 import { useSectionShow } from '../../hooks/useSectionShow';
+import { useLang } from '../../hooks/useLang';
+
+// * Components
+import { TourComponent } from '../includes/react-tour/TourComponent';
 import { ContactCards } from '../includes/contact/ContactCards';
 import { FormContact } from '../includes/contact/FormContact';
-import { TourComponent } from '../includes/react-tour/TourComponent';
+
+// * Types
 import types from '../../types/types';
 
 export const Contact = () => {

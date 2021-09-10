@@ -9,6 +9,8 @@ import { haveBeenVisitedReducer } from '../reducer/haveBeenVisitedReducer';
 
 // * Data
 import { initialState } from '../reducer/initialState';
+
+// * Types
 import types from '../types/types';
 
 /**

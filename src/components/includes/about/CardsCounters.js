@@ -1,8 +1,12 @@
+// * React Hooks
 import React, { useState } from 'react';
-import { Waypoint } from 'react-waypoint';
 
-import countersBox from '../../../data/countersBox';
+// * Components
+import { Waypoint } from 'react-waypoint';
 import { CountBoxItem } from './CountBoxItem';
+
+// * Data
+import countersBox from '../../../data/countersBox';
 
 export const CardsCounters = React.memo( () => {
 

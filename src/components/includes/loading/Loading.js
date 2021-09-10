@@ -1,5 +1,8 @@
+// * React Hooks
 import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
+
+// * Components
 import { LoadComponentDefault } from './LoadComponentDefault';
 
 export const Loading = ({ LoadingComponent, Component, delay }) => {

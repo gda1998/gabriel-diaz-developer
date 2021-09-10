@@ -1,6 +1,11 @@
+// * React Hooks
 import React from 'react';
-import portfolioFiltersList from '../../../data/portfolioFiltersList';
+
+// * Components
 import { LiFilterItem } from './LiFilterItem';
+
+// * Data
+import portfolioFiltersList from '../../../data/portfolioFiltersList';
 
 export const PortfolioFilters = React.memo( () => {
     return (

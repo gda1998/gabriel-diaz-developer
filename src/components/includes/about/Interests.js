@@ -1,4 +1,7 @@
+// * React Hooks
 import React from 'react';
+
+// * Data
 import interestsData from '../../../data/interestsData';
 
 import { InterestItem } from './InterestItem';

@@ -1,6 +1,11 @@
+// * React Hooks
 import React from 'react';
-import contactInfoData from '../../../data/contactInfoData';
+
+// * Components
 import { ContactCardsItem } from './ContactCardsItem';
+
+// * Data
+import contactInfoData from '../../../data/contactInfoData';
 
 export const ContactCards = () => {
     return (

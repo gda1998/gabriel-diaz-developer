@@ -1,8 +1,14 @@
+// * React Hooks
 import React, { useRef } from 'react';
 
+// * Hooks and libraries
 import { useLang } from '../../hooks/useLang';
-import navLinks from '../../data/navLinks';
+
+// * Components
 import { NavItem } from '../includes/home/NavItem';
+
+// * Data
+import navLinks from '../../data/navLinks';
 
 export const NavBar = () => {
     const navBarRef = useRef();

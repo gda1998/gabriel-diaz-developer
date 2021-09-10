@@ -1,6 +1,11 @@
+// * React Hooks
 import React from 'react'
 import PropTypes from 'prop-types'
+
+// * Hooks and libraries
 import { useLang } from '../../../hooks/useLang'
+
+// * Components
 import { SocialLinks } from '../home/SocialLinks';
 
 export const ContactCardsItem = ({ className, icon, title, text, fontSize }) => {

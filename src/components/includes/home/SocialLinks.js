@@ -1,8 +1,12 @@
+// * React Hooks
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import socialNetworks from '../../../data/socialNetworks';
+// * Components
 import { SocialLinkItem } from './SocialLinkItem';
+
+// * Data
+import socialNetworks from '../../../data/socialNetworks';
 
 export const SocialLinks = ({ displayBlock }) => {
     return (

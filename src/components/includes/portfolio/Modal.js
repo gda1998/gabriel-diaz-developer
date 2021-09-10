@@ -1,13 +1,19 @@
+// * React Hooks
 import React, { useContext, useState, useEffect } from 'react';
-import Glightbox from 'glightbox';
-import { PortfolioContext } from '../../../hooks/PortfolioContext';
 
+// * Hooks and libraries
+import { PortfolioContext } from '../../../hooks/PortfolioContext';
+import Glightbox from 'glightbox';
+
+// * Components
 import { ModalHeader } from './ModalHeader';
-import { ModalFooter } from './ModalFooter';
 import { ImgCarousel } from './ImgCarousel';
 import { PortfolioInfo } from './PortfolioInfo';
 import { UsedTools } from './UsedTools';
 import { ButtonsChangePortfolio } from './ButtonsChangePortfolio';
+import { ModalFooter } from './ModalFooter';
+
+// * Styles
 import '../../../css/modal-portfolio.css';
 
 export const Modal = () => {

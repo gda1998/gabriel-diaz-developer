@@ -1,7 +1,11 @@
+// * React Hooks
 import React, { useContext } from 'react';
 import PropTypes from 'prop-types';
+
+// * Hooks and libraries
 import { PortfolioContext } from '../../../hooks/PortfolioContext';
 
+// * Components
 import { BtnCarouselItem } from './BtnCarouselItem';
 import { ImgCarouselItem } from './ImgCarouselItem';
 import { BtnChangeImage } from './BtnChangeImage';

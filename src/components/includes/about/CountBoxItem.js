@@ -1,8 +1,12 @@
+// * React Hooks
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { FastCounter } from 'react-smooth-counter';
+// * Hooks and libraries
 import { useLang } from '../../../hooks/useLang';
+
+// * Components
+import { FastCounter } from 'react-smooth-counter';
 
 export const CountBoxItem = ({ counterBoxInfo, showCounter }) => {
     const [ t ] = useLang();

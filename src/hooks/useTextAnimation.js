@@ -1,4 +1,7 @@
+// * React Hooks
 import { useState, useEffect } from 'react';
+
+// * Hooks and libraries
 import { useLang } from './useLang';
 
 /**

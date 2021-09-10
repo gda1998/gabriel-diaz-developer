@@ -1,9 +1,13 @@
+// * React Hooks
 import React, { useContext } from 'react'
+
+// * Hooks and libraries
 import { useLang } from '../../../hooks/useLang';
 import { PortfolioContext } from '../../../hooks/PortfolioContext';
 
-import { UsedToolsItem } from './UsedToolsItem';
+// * Components
 import { LiPortfolioItem } from './LiPortfolioItem';
+import { UsedToolsItem } from './UsedToolsItem';
 
 export const UsedTools = () => {
     const [ t ] = useLang();

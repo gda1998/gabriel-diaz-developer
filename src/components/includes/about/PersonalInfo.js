@@ -1,8 +1,14 @@
+// * React Hooks
 import React from 'react';
 
-import arraySlice from '../../../helpers/arraySlice';
-import personalInfo from '../../../data/personalInfo';
+// * Components
 import { PersonalInfoItem } from './PersonalInfoItem';
+
+// * Helpers
+import arraySlice from '../../../helpers/arraySlice';
+
+// * Data
+import personalInfo from '../../../data/personalInfo';
 
 export const PersonalInfo = () => {
     const personalInfoArrays = arraySlice(personalInfo, 4);

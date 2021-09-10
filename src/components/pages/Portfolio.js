@@ -1,15 +1,22 @@
+// * React Hooks
 import React, { useState } from 'react';
+
+// * Hooks and libraries
 import { useLang } from '../../hooks/useLang';
 import { useSectionShow } from '../../hooks/useSectionShow';
 import { useImageFiltering } from '../../hooks/useImageFiltering';
 import { PortfolioContext } from '../../hooks/PortfolioContext';
 
+// * Components
 import { TourComponent } from '../includes/react-tour/TourComponent';
 import { PortfolioFilters } from '../includes/portfolio/PortfolioFilters';
 import { PortfolioContainer } from '../includes/portfolio/PortfolioContainer';
 import { Modal } from '../includes/portfolio/Modal';
 
+// * Data
 import portfolioData from '../../data/portfolioData';
+
+// * Types
 import types from '../../types/types';
 
 const Portfolio = () => {

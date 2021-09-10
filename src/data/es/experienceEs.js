@@ -1,15 +1,22 @@
 const experienceEs = [
     {
+        id: 'eks-practices',
+        title: 'Desarrollador Web (Entrenamiento)',
+        dates: '13/05/2021 - Actualmente',
+        place: 'EKS Solutions,',
+        text: 'Apoyo en la detección y corrección de problemas de los sistemas de uno de los clientes de la empresa EKS Solutions, utilizando herramientas de Oracle.'
+    },
+    {
         id: 'humanly-job',
         title: 'Desarrollador Web',
         dates: '16/07/2020 - 15/09/2020',
         place: 'Humanly Software,',
-        text: 'Apoyo en el mantenimiento y migración a una versión más reciente de uno de sus sistemas enfocado a llevar a cabo el control de la información de varios laboratorios clínicos.'
+        text: 'Apoyo en el mantenimiento y migración a una versión más reciente de uno de sus sistemas enfocado a la gestión del personal, como sus sueldos, jornadas laborales, entre otros.'
     },
     {
         id: 'tsystems-second-practices',
         title: 'Desarrollador Web (Prácticas)',
-        dates: '17/01/2020 - 24/04/2020',
+        dates: '17/01/2020 - 24/05/2020',
         place: 'T - Systems México S.A de C.V.,',
         text: 'Desarrollar las bases de un sistema web enfocado a la asignación automática de actividades de una de las áreas de la empresa.'
     },

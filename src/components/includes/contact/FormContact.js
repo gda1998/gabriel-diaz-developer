@@ -1,11 +1,15 @@
+// * React Hooks
 import React, { useRef } from 'react';
+
+// * Hooks and libraries
 import emailjs from 'emailjs-com';
 import ReCAPTCHA from 'react-google-recaptcha';
-
-import select from '../../../helpers/select';
-import swalToast from '../../../helpers/swalToast';
 import { useLang } from '../../../hooks/useLang';
 import { useForm } from '../../../hooks/useForm';
+
+// * Helpers
+import select from '../../../helpers/select';
+import swalToast from '../../../helpers/swalToast';
 
 export const FormContact = () => {
 

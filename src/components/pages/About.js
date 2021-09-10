@@ -1,14 +1,21 @@
+// * React Hooks
 import React from 'react';
 
-import { useLang } from '../../hooks/useLang';
+// * Hooks and libraries
 import { useSectionShow } from '../../hooks/useSectionShow';
+import { useLang } from '../../hooks/useLang';
 
+// * Components
+import { ImgProfile } from '../includes/about/ImgProfile';
 import { PersonalInfo } from '../includes/about/PersonalInfo';
 import { CardsCounters } from '../includes/about/CardsCounters';
 import { Skills } from '../includes/about/Skills';
 import { Interests } from '../includes/about/Interests';
 import { Testimonials } from '../includes/about/Testimonials';
-import { ImgProfile } from '../includes/about/ImgProfile';
+
+// * Data
+import skillsData from '../../data/skillsData';
+import languagesData from '../../data/languagesData';
 
 const About = () => {
     const sectionShow = useSectionShow();
@@ -50,8 +57,16 @@ const About = () => {
                 <div className="section-title">
                     <h2>{ t('about.skills') }</h2>
                 </div>
-                <Skills />
+                <Skills numColumns={3} numRows={5} data={ skillsData }  />
             </div>{/* End Skills */}
+
+            {/* ======= Languages  ======= */}
+            <div className="skills container">
+                <div className="section-title">
+                    <h2>{ t('about.languages') }</h2>
+                </div>
+                <Skills numColumns={2} numRows={1} data={ languagesData } />
+            </div>{/* End Languages */}
       
             {/* ======= Interests ======= */}
             <div className="interests container">

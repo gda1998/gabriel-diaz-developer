@@ -1,7 +1,11 @@
+// * React Hooks
 import React from 'react';
+
+// * Hooks and libraries
 import { useLang } from '../../../hooks/useLang';
 
-import pdf_en from '../../../docs/Gabriel_DIaz_Resume.pdf';
+// * Documents
+import pdf_en from '../../../docs/Gabriel_Diaz_Resume.pdf';
 import pdf_es from '../../../docs/Curriculum_Gabriel_Diaz.pdf';
 
 

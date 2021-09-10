@@ -29,8 +29,13 @@
         "engineering" : "Ingeniería",
         "avaible" : "Disponible",
         "skills" : "Habilidades",
+        "languages" : "Idiomas",
         "interests" : "Intereses",
         "testimonials" : "Testimonios"
+    },
+    "languages" : {
+        "es" : "Español",
+        "en" : "Inglés"
     },
     "counters-box" : {
         "projects" : "Proyectos",

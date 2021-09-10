@@ -1,4 +1,7 @@
+// * React Hooks
 import React from 'react';
+
+// * Hooks and libraries
 import { useLang } from '../../../hooks/useLang';
 
 export const ModalHeader = React.memo( () => {

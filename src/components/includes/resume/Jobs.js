@@ -1,9 +1,15 @@
+// * React Hooks
 import React from 'react';
+
+// * Hooks and libraries
 import { useLang } from '../../../hooks/useLang';
 
+// * Components
+import { ResumeItem } from './ResumeItem';
+
+// * Data
 import experienceEn from '../../../data/en/experienceEn';
 import experienceEs from '../../../data/es/experienceEs';
-import { ResumeItem } from './ResumeItem';
 
 
 export const Jobs = () => {

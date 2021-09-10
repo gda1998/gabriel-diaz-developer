@@ -1,14 +1,17 @@
+// * React Hooks
 import React from 'react';
+
+// * Hooks and libraries
 import { Redirect, Route, Switch, useLocation } from 'react-router';
 
+// * Components
 import { Header } from '../components/layouts/Header';
 import { Resume } from '../components/pages/Resume';
 import { Services } from '../components/pages/Services';
 import { Contact } from '../components/pages/Contact';
 import { Error404 } from '../components/errors/Error404';
-
-const Portfolio = React.lazy( () => import('../components/pages/Portfolio') );
 const About = React.lazy( () => import('../components/pages/About') );
+const Portfolio = React.lazy( () => import('../components/pages/Portfolio') );
 
 export const AppRouter = () => {
     const { pathname } = useLocation();

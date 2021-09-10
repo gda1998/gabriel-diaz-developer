@@ -40,6 +40,10 @@ const skillsData = [
         percent: 85
     },
     {
+        name: 'Oracle',
+        percent: 60
+    },
+    {
         name: 'Bootstrap',
         percent: 80
     },

@@ -1,8 +1,15 @@
+// * React Hooks
 import React from 'react';
-import servicesData from '../../data/servicesData';
-import { useLang } from '../../hooks/useLang';
+
+// * Hooks and libraries
 import { useSectionShow } from '../../hooks/useSectionShow';
+import { useLang } from '../../hooks/useLang';
+
+// * Components
 import { ServiceItem } from '../includes/services/ServiceItem';
+
+// * Data
+import servicesData from '../../data/servicesData';
 
 export const Services = () => {
     const sectionShow = useSectionShow();

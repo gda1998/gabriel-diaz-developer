@@ -1,9 +1,14 @@
+// * React Hooks
 import React, { useContext } from 'react';
+
+// * Hooks and libraries
 import { useLang } from '../../../hooks/useLang';
 import { PortfolioContext } from '../../../hooks/PortfolioContext';
 
+// * Components
 import { LiPortfolioItem } from './LiPortfolioItem';
 
+// * Data
 import portfolioDataEn from '../../../data/en/portfolioDataEn';
 import portfolioDataEs from '../../../data/es/portfolioDataEs';
 

@@ -1,7 +1,12 @@
+// * React Hooks
 import React, { useContext, useEffect } from 'react';
 import PropTypes from 'prop-types';
+
+// * Hooks and libraries
 import { useLang } from '../../../hooks/useLang';
 import { PortfolioContext } from '../../../hooks/PortfolioContext';
+
+// * Helpers
 import select from '../../../helpers/select';
 
 export const LiFilterItem = ({ name, data_filter }) => {

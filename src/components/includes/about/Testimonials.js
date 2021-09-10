@@ -1,12 +1,18 @@
+// * React Hooks
 import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
+
+// * Hooks and libraries
 // import Swiper core and required modules
 import SwiperCore, { Pagination, Autoplay, Mousewheel } from 'swiper';
-
 import { useLang } from '../../../hooks/useLang';
+
+// * Components
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { TestimonialItem } from './TestimonialItem';
+
+// * Data
 import testimonialsEn from '../../../data/en/testimonialsEn';
 import testimonialsEs from '../../../data/es/testimonialsEs';
-import { TestimonialItem } from './TestimonialItem';
 
 // install Swiper modules
 SwiperCore.use([ Pagination, Autoplay, Mousewheel ]);

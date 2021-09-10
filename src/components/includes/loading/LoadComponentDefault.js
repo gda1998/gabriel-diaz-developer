@@ -1,4 +1,7 @@
+// * React Hooks
 import React from 'react';
+
+// * Hooks and libraries
 import { useSectionShow } from '../../../hooks/useSectionShow';
 
 export const LoadComponentDefault = () => {
