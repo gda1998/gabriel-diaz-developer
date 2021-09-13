@@ -18,7 +18,7 @@ const contactInfoData = [
         className: 'col-md-4 mt-4',
         icon: 'bx bx-envelope',
         title: 'contact.email-me',
-        text: 'gabriel.diaz.amador.num.13@gmail.com',
+        text: ['gabriel','.diaz','.amador','.num','.13','@','gmail.com'].join(''),
         fontSize: '0.75rem'
     },
     {
@@ -26,7 +26,7 @@ const contactInfoData = [
         className: 'col-md-4 mt-4',
         icon: 'bx bx-phone-call',
         title: 'contact.call-me',
-        text: '+52 22 22 52 03 42'
+        text: ['+52 ','22 ','22 ','52 ','03 ','42'].join('')
     },
 ];
 

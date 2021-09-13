@@ -9,11 +9,11 @@ const personalInfo = [
     },
     {
         name: 'about.phone',
-        value : '+52 22 22 52 03 42'
+        value : ['+52 ','22 ','22 ','52 ','03 ','42'].join('')
     },
     {
         name: 'about.email',
-        value : 'gabriel.diaz.amador.num.13@gmail.com'
+        value : ['gabriel','.diaz','.amador','.num','.13','@','gmail.com'].join('')
     },
     {
         name: 'about.city',

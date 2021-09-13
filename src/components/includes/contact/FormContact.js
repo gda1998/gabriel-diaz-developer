@@ -13,6 +13,11 @@ import swalToast from '../../../helpers/swalToast';
 
 export const FormContact = () => {
 
+    // Authentication CORS
+    window.recaptchaOptions = {
+        useRecaptchaNet: true,
+    };
+
     // UseLang
     const [ t ] = useLang();
 
