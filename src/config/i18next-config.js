@@ -8,5 +8,11 @@ i18n
 .use(LanguageDetector)
 .use(initReactI18next)
 .init({
+    backend: {
+        // eslint-disable-next-line no-path-concat
+        loadPath: 'locales/{{lng}}/{{ns}}.json',
+        // eslint-disable-next-line no-path-concat
+        addPath: 'locales/{{lng}}/{{ns}}.missing.json'
+    },
     fallbackLng: 'en',
 });
