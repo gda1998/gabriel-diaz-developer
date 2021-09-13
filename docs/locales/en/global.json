@@ -1,0 +1,116 @@
+{
+    "words-cursor" : {
+        "web-developer" : "Web Developer",
+        "front-end-dev" : "Front End Developer",
+        "back-end-dev" : "Back End Developer"
+    },
+    "header" : {
+        "home" : "Home",
+        "about" : "About",
+        "resume" : "Resume",
+        "services" : "Services",
+        "portfolio" : "Portfolio",
+        "contact" : "Contact",
+        "lang" : "Español",
+        "download-cv" : "Download my Resume",
+        "back-home" : "Back to Home",
+        "welcome-message" : "Hello. Welcome to my web site.<br/>My name is {{ name }} and I'm a "
+    },
+    "about" : {
+        "learn" : "Learn more about me",
+        "message" : "¡Hello! Welcome to my web site. My name is {{ name }} y I'm a web application developer focused to portray the ideas from your head to a functional web system, using free and functional tools like {{ web_tools }} among others. I invite you to see the rest of my web site.",
+        "birthday" : "Birthday",
+        "age" : "Age",
+        "phone" : "Phone",
+        "email" : "Email",
+        "city" : "City",
+        "degree" : "Degree",
+        "freelance" : "Freelance",
+        "engineering" : "Engineering",
+        "avaible" : "Avaible",
+        "skills" : "Skills",
+        "languages" : "Languages",
+        "interests" : "Interests",
+        "testimonials" : "Testimonials"
+    },
+    "languages" : {
+        "es" : "Spanish",
+        "en" : "English"
+    },
+    "counters-box" : {
+        "projects" : "Projects",
+        "hours_support" : "Hours Of Support",
+        "awards" : "Awards"
+    },
+    "interests" : {
+        "programming" : "Program",
+        "learn" : "Learn new things",
+        "read" : "Read",
+        "drive" : "Drive",
+        "explore" : "Explore new places",
+        "talk-friend" : "Talk with a friend",
+        "drink-beer" : "Drink a beer",
+        "netflix" : "Watch a Netflix marathon",
+        "videogames" : "Play videogames",
+        "social-media" : "Browse social networks"
+    },
+    "resume" : {
+        "check-resume" : "Check my resume",
+        "sumary" : "Sumary",
+        "introduction" : "Introduction",
+        "education" : "Education",
+        "experience" : "Professional Experience",
+        "sumary-text" : "Graduated of one of the most importants universities from the Puebla City, Mexico, I've been trained to can design and develop web applications using free and high level technologies like {{ web_tools }} among others. <br/>Personally, I'm a responsible person, self-taught and a perfectionist with the work I do."
+    },
+    "services" : {
+        "my-services" : "My Services",
+        "back-end" : "Back End Development",
+        "front-end" : "Front End Development",
+        "back-end-text" : "Transform your business logic into the internal logic and operation of your web app.",
+        "front-end-text" : "Convert your web app into a easy and simple interaction system between the final user and the server."
+    },
+    "portfolio" : {
+        "projects-worked" : "Projects Worked",
+        "all" : "All",
+        "work" : "Work",
+        "school" : "School",
+        "hobby" : "Hobby",
+        "project-details" : "Project Details",
+        "project-info" : "Project Information",
+        "title" : "Title",
+        "category": "Category",
+        "client" : "Client",
+        "project-date" : "Project Date",
+        "close" : "Close",
+        "details" : "More Details",
+        "development-tools" : "Development Tools",
+        "functionality" : "Functionality",
+        "database" : "Data Base",
+        "design" : "Design"
+    },
+    "contact" : {
+        "contact-me" : "Contact me",
+        "get-in-touch" : "Get in touch with me",
+        "social-profiles" : "My Social Profiles",
+        "email-me" : "Email me",
+        "call-me" : "Call me",
+        "header-text" : "If you have a project in mind or just want to talk to me, do not hesitate to contact me either through my social profiles, my cell phone or by sending me an email in the form below. 😉"
+    },
+    "form" : {
+        "your-name" : "Your Name",
+        "your-email" : "Your Email",
+        "subject" : "Subject",
+        "message" : "Message",
+        "send" : "Send Message",
+        "only-alphabetic" : "The field must be made up of alphabetic characters only",
+        "field-requied" : "This field is required"
+    },
+    "messages" : {
+        "email-sent-text" : "The email has been sent successfully.",
+        "loading" : "Loading..."
+    },
+    "errors" : {
+        "not-found-text" : "The page you are looking for was not found or was deleted.",
+        "recaptcha-token-invalid" : "Recaptcha authentication has failed. Try again."
+    }
+}
