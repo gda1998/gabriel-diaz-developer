@@ -5,7 +5,7 @@ import React from 'react';
 import { useLang } from '../../../hooks/useLang';
 
 // * Documents
-// import pdf_en from '../../../docs/Gabriel_Diaz_Resume.pdf';
+import pdf_en from '../../../docs/Gabriel_Diaz_Resume.pdf';
 import pdf_es from '../../../docs/Curriculum_Gabriel_Diaz.pdf';
 
 
