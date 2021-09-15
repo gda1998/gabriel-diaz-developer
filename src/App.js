@@ -3,7 +3,7 @@ import React, { Suspense } from 'react';
 
 // * Hooks and libraries
 import {
-    HashRouter as Router,
+    BrowserRouter as Router,
     Switch,
     Route
 } from 'react-router-dom';
@@ -20,7 +20,7 @@ import './css/style.css';
 export const App = () => {
 
     return (
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
             <div>
                 <Suspense fallback={ <LoadComponentDefault /> }>
                     <Switch>
