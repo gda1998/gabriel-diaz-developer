@@ -5,8 +5,8 @@ import React from 'react';
 import { useLang } from '../../../hooks/useLang';
 
 // * Documents
+import pdf_en from '../../../docs/Resume_Gabriel_Diaz.pdf';
 import pdf_es from '../../../docs/Curriculum_Gabriel_Diaz.pdf';
-import pdf_en from '../../../docs/Gabriel_Diaz_Resume.pdf';
 
 
 export const ButtonCV = () => {
