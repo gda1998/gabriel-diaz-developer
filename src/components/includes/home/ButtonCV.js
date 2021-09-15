@@ -11,13 +11,12 @@ import pdf_es from '../../../docs/Curriculum_Gabriel_Diaz.pdf';
 
 export const ButtonCV = () => {
 
-    const [ t/* , , lang */ ] = useLang();
+    const [ t, , lang ] = useLang();
 
     return (
         <a
             className="button" 
-            // href={ lang === 'en' ? pdf_en : pdf_es }
-            href={ pdf_es }
+            href={ lang === 'en' ? pdf_en : pdf_es }
             id="CV_Gabriel_Diaz"
             download="CV_Gabriel_Diaz"
         >
