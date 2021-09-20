@@ -24,7 +24,6 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "react-shepherd": "^3.3.3",
-    "react-smooth-counter": "^2.0.0",
     "react-waypoint": "^9.0.3",
     "reactour": "^1.18.6",
     "styled-components": "^4.0.0",
@@ -56,5 +55,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-smooth-counter": "^2.0.0"
   }
 }
