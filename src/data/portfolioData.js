@@ -18,21 +18,6 @@ const portfolioData = [
                 title: 'HTDS-1',
                 path: 'assets/img/portfolio/htds/HTDS-1.png',
                 isActive: true
-            },
-            {
-                id: 'htds_img_2',
-                title: 'HTDS-2',
-                path: 'assets/img/portfolio/htds/portfolio-details-1.jpg'
-            },
-            {
-                id: 'htds_img_3',
-                title: 'HTDS-3',
-                path: 'assets/img/portfolio/htds/portfolio-details-2.jpg'
-            },
-            {
-                id: 'htds_img_4',
-                title: 'HTDS-4',
-                path: 'assets/img/portfolio/htds/portfolio-details-3.jpg'
             }
         ],
         used_tools: {
@@ -79,6 +64,26 @@ const portfolioData = [
                 id: 'smac_img_4',
                 title: 'SMAC-4',
                 path: 'assets/img/portfolio/smac/SMAC-4.png'
+            },
+            {
+                id: 'smac_img_5',
+                title: 'SMAC-5',
+                path: 'assets/img/portfolio/smac/SMAC-5.png'
+            },
+            {
+                id: 'smac_img_6',
+                title: 'SMAC-6',
+                path: 'assets/img/portfolio/smac/SMAC-6.png'
+            },
+            {
+                id: 'smac_img_7',
+                title: 'SMAC-7',
+                path: 'assets/img/portfolio/smac/SMAC-7.png'
+            },
+            {
+                id: 'smac_img_8',
+                title: 'SMAC-8',
+                path: 'assets/img/portfolio/smac/SMAC-8.png'
             }
         ],
         used_tools: {
@@ -124,6 +129,31 @@ const portfolioData = [
                 id: 'scadci_img_4',
                 title: 'SCADCI-4',
                 path: 'assets/img/portfolio/scadci/SCADCI-4.png'
+            },
+            {
+                id: 'scadci_img_5',
+                title: 'SCADCI-5',
+                path: 'assets/img/portfolio/scadci/SCADCI-5.png'
+            },
+            {
+                id: 'scadci_img_6',
+                title: 'SCADCI-6',
+                path: 'assets/img/portfolio/scadci/SCADCI-6.png'
+            },
+            {
+                id: 'scadci_img_7',
+                title: 'SCADCI-7',
+                path: 'assets/img/portfolio/scadci/SCADCI-7.png'
+            },
+            {
+                id: 'scadci_img_8',
+                title: 'SCADCI-8',
+                path: 'assets/img/portfolio/scadci/SCADCI-8.png'
+            },
+            {
+                id: 'scadci_img_9',
+                title: 'SCADCI-9',
+                path: 'assets/img/portfolio/scadci/SCADCI-9.png'
             }
         ],
         used_tools: {
@@ -178,7 +208,12 @@ const portfolioData = [
                 id: 'helsa_img_6',
                 title: 'HELSA-6',
                 path: 'assets/img/portfolio/helsa/HELSA-6.png'
-            }
+            },
+            {
+                id: 'helsa_img_7',
+                title: 'HELSA-7',
+                path: 'assets/img/portfolio/helsa/HELSA-7.png'
+            },
         ],
         used_tools: {
             func: [
@@ -222,6 +257,16 @@ const portfolioData = [
                 id: 'mecamex_img_4',
                 title: 'MECAMEX-4',
                 path: 'assets/img/portfolio/mecamex/MECAMEX-4.png'
+            },
+            {
+                id: 'mecamex_img_5',
+                title: 'MECAMEX-5',
+                path: 'assets/img/portfolio/mecamex/MECAMEX-5.png'
+            },
+            {
+                id: 'mecamex_img_6',
+                title: 'MECAMEX-6',
+                path: 'assets/img/portfolio/mecamex/MECAMEX-6.png'
             }
         ],
         used_tools: {
@@ -275,8 +320,8 @@ const portfolioData = [
         type: 'portfolio.hobby',
         filter: 'hobby',
         url: {
-            urlTitle: 'https://github.com/',
-            href: 'https://github.com/gda1998'
+            urlTitle: 'https://gda-heroes.netlify.app/',
+            href: 'https://gda-heroes.netlify.app/login'
         },
         images: [
             {
@@ -320,8 +365,8 @@ const portfolioData = [
         type: 'portfolio.hobby',
         filter: 'hobby',
         url: {
-            urlTitle: 'https://github.com/',
-            href: 'https://github.com/gda1998'
+            urlTitle: 'https://gda1998.github.io/react-gifexpertapp/',
+            href: 'https://gda1998.github.io/react-gifexpertapp/'
         },
         images: [
             {

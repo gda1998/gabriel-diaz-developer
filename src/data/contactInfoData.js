@@ -18,7 +18,7 @@ const contactInfoData = [
         className: 'col-md-4 mt-4',
         icon: 'bx bx-envelope',
         title: 'contact.email-me',
-        text: ['gabriel','.diaz','.amador','.num','.13','@','gmail.com'].join(''),
+        text: ['gda','1998','.dev','@','gmail.com'].join(''),
         fontSize: '0.75rem'
     },
     {

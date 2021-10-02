@@ -18,7 +18,7 @@
     },
     "about" : {
         "learn" : "Conoce más sobre mí",
-        "message" : "¡Hola! Bienvenido a mi página web. Mi nombre es {{ name }} y soy un desarrollador de aplicaciones web enfocado a plasmar las ideas de tu cabeza en un sistema web funcional, utilizando herramientas libres y funcionales como son {{ web_tools }} entre otros. Te invito a ver el resto de mi página web.",
+        "message" : "¡Hola! Bienvenido a mi página web. Mi nombre es {{ name }} y soy un desarrollador de aplicaciones web enfocado a plasmar las ideas de tu cabeza en un sistema web funcional, utilizando herramientas libres y funcionales. Te invito a ver el resto de mi página web.",
         "birthday" : "Cumpleaños",
         "age" : "Edad",
         "phone" : "Teléfono",
@@ -51,16 +51,15 @@
         "talk-friend" : "Platicar con un amigo",
         "drink-beer" : "Tomar una cerveza",
         "netflix" : "Un maratón de Netflix",
-        "videogames" : "Jugar videojuegos",
-        "social-media" : "Ver mis redes sociales"
+        "videogames" : "Jugar videojuegos"
     },
     "resume" : {
-        "check-resume" : "Checa mi experiencia",
+        "check-resume" : "Mi experiencia",
         "sumary" : "Resumén",
         "introduction" : "Introducción",
         "education" : "Educación",
         "experience" : "Experiencia Profesional",
-        "sumary-text" : "Egresado de una de las universidades más importantes de la ciudad de Puebla, México, la UTP, he sido formado para poder diseñar y desarrollar aplicaciones web utilizando tecnologías libres y de alto nivel, como {{ web_tools }} entre otros. <br/>En lo personal soy una persona responsable, autodidacta y perfeccionista con el trabajo que hace."
+        "sumary-text" : "Egresado de una de las universidades más importantes de la ciudad de Puebla, México, la Universidad Tecnológica de Puebla (UTP), he sido formado para poder diseñar y desarrollar aplicaciones web utilizando tecnologías libres y de alto nivel, como {{ web_tools }} entre otros. <br/>En lo personal soy una persona responsable, autodidacta y perfeccionista con el trabajo que hace."
     },
     "services" : {
         "my-services" : "Mis Servicios",
@@ -90,11 +89,11 @@
     },
     "contact" : {
         "contact-me" : "Contáctame",
-        "get-in-touch" : "Ponte en contacto conmigo",
+        "get-in-touch" : "Comunícate conmigo",
         "social-profiles" : "Mis Redes Sociales",
         "email-me" : "Envíame un correo",
         "call-me" : "Llámame",
-        "header-text" : "Si tienes algún proyecto en mente o simplemente quieres platicar conmigo, no dudes en contactarme ya sea por mis redes sociales, mi celular o enviandome un correo en el formulario de abajo. 😉"
+        "header-text" : "Si tienes algún proyecto en mente, no dudes en enviarme un mensaje, ya sea por mis redes sociales, mi celular o por correo usando el formulario de abajo. 😉"
     },
     "form" : {
         "your-name" : "Tu Nombre",

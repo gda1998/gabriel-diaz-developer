@@ -52,12 +52,6 @@ const interestsData = [
         icon: 'ri-gamepad-fill',
         color: '#4233ff',
         className: 'col-lg-3 col-md-4 mt-4',
-    },
-    {
-        name: 'interests.social-media',
-        icon: 'ri-smartphone-line',
-        color: '#ff5828',
-        className: 'col-lg-3 col-md-4 mt-4',
     }
 ];
 

@@ -13,7 +13,7 @@ const personalInfo = [
     },
     {
         name: 'about.email',
-        value : ['gabriel','.diaz','.amador','.num','.13','@','gmail.com'].join('')
+        value : ['gda','1998','.dev','@','gmail.com'].join('')
     },
     {
         name: 'about.city',

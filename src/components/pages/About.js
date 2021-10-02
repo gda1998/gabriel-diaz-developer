@@ -22,7 +22,6 @@ const About = () => {
     const [ t ] = useLang();
     const translationVars = { 
         name: 'Gabriel Díaz Amador',
-        web_tools: 'PHP, Laravel, JavaScript, AJAX, React,'
     };
 
     return (

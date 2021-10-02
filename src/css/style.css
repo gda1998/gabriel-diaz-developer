@@ -11,6 +11,7 @@
 :root {
   --main-color: #18D26E;
   --second-color: #35e888;
+  --third-color: #181a1b;
   --white-color: #FFF;
   --container-color : rgba(0, 0, 0, 0.9);
   --font-poppins: 'Poppins';
@@ -61,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 ::-webkit-scrollbar-corner {
-  background-color: #181a1b;
+  background-color: var(--third-color);
 }
 
 ::-webkit-scrollbar:vertical {
@@ -753,7 +754,7 @@ section .container {
 }
 
 .services .icon-box:hover .icon {
-  background: var(--white-color);
+  background: rgba(0, 0, 0, 0.7);
 }
 
 .services .icon-box:hover .icon i {
@@ -761,11 +762,11 @@ section .container {
 }
 
 .services .icon-box:hover .icon::before {
-  background: var(--second-color);
+  background: #2AB96C;
 }
 
-.services .icon-box:hover h4 a, .services .icon-box:hover p {
-  color: var(--white-color);
+.services .icon-box:hover h4, .services .icon-box:hover h4 a, .services .icon-box:hover p {
+  color: var(--third-color);
 }
 
 /*--------------------------------------------------------------
@@ -1148,7 +1149,7 @@ section .container {
 }
 
 .button:hover{
-  background-color: #181a1b !important;
+  background-color: var(--third-color) !important;
   border: 1px solid var(--main-color) !important;
   color: var(--main-color) !important;
 }
@@ -1181,7 +1182,7 @@ section .container {
 
 /* Glightbox footer */
 .gdesc-inner{
-  background-color: #181a1b;
+  background-color: var(--third-color);
 }
 
 .glightbox-clean .gslide-title{
@@ -1198,7 +1199,7 @@ section .container {
 }
 
 .react-tour {
-  background-color: #181a1b;
+  background-color: var(--third-color);
 }
 
 .highlight {

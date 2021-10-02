@@ -11,7 +11,6 @@ import { ImgCarousel } from './ImgCarousel';
 import { PortfolioInfo } from './PortfolioInfo';
 import { UsedTools } from './UsedTools';
 import { ButtonsChangePortfolio } from './ButtonsChangePortfolio';
-import { ModalFooter } from './ModalFooter';
 
 // * Styles
 import '../../../css/modal-portfolio.css';
@@ -149,7 +148,6 @@ export const Modal = () => {
                         </div>{/* /.modal-container */}
 
                     </div>{/* /.modal-body */}
-                    <ModalFooter />
                 </div>{/* /.modal-content */}
             </div>{/* /.modal-dialog */}
         </div>/* /.modal .fade */

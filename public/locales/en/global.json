@@ -18,7 +18,7 @@
     },
     "about" : {
         "learn" : "Learn more about me",
-        "message" : "¡Hello! Welcome to my web site. My name is {{ name }} y I'm a web application developer focused to portray the ideas from your head to a functional web system, using free and functional tools like {{ web_tools }} among others. I invite you to see the rest of my web site.",
+        "message" : "¡Hello! Welcome to my web site. My name is {{ name }} y I'm a web application developer focused to portray the ideas from your head to a functional web system, using free and functional tools. I invite you to see the rest of my web site.",
         "birthday" : "Birthday",
         "age" : "Age",
         "phone" : "Phone",
@@ -51,11 +51,10 @@
         "talk-friend" : "Talk with a friend",
         "drink-beer" : "Drink a beer",
         "netflix" : "Watch a Netflix marathon",
-        "videogames" : "Play videogames",
-        "social-media" : "Browse social networks"
+        "videogames" : "Play videogames"
     },
     "resume" : {
-        "check-resume" : "Check my resume",
+        "check-resume" : "My resume",
         "sumary" : "Sumary",
         "introduction" : "Introduction",
         "education" : "Education",
@@ -94,7 +93,7 @@
         "social-profiles" : "My Social Profiles",
         "email-me" : "Email me",
         "call-me" : "Call me",
-        "header-text" : "If you have a project in mind or just want to talk to me, do not hesitate to contact me either through my social profiles, my cell phone or by sending me an email in the form below. 😉"
+        "header-text" : "If you have a project in mind, do not hesitate to send me a message through my social profiles, my cell phone or by email using the form below. 😉"
     },
     "form" : {
         "your-name" : "Your Name",
