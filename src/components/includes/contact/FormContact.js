@@ -94,7 +94,7 @@ export const FormContact = () => {
                     placeholder={ t('form.your-email') }
                     value={ email } 
                     onChange={ handleInputChange }
-                    pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}"
+                    pattern="[a-zA-Z0-9_]+([.\-][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}"
                     title="ej. example@email.com"    
                 />
                 <div className="invalid-feedback">
