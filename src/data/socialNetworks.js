@@ -14,6 +14,10 @@ const socialNetworks = [
     {
         icon: 'bi bi-instagram',
         url: 'https://www.instagram.com/gda1998/'
+    },
+    {
+        icon: 'ri-spotify-fill',
+        url: 'https://open.spotify.com/user/w1m781a1w6w5isk893j2ktu0m'
     }
 ];
 
