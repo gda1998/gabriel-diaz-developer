@@ -15,7 +15,7 @@ export const ImgCarouselItem = ({ title, path, isActive }) => {
                                 className="portfolio-lightbox" 
                                 title={ title }
                             >
-                                <i className="bx bx-plus"></i>
+                                <i className="bx bx-zoom-in"></i>
                             </a>
                         </div>{ /* /.portfolio-links */ }
                     </div>{ /* /.portfolio-info */ }
