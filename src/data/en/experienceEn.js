@@ -11,7 +11,7 @@ const experienceEn = [
         title: 'Web Developer',
         dates: '07/16/2020 - 09/15/2020',
         place: 'Humanly Software,',
-        text: 'I helped on the maintenance and migration to a more recent version of one of their systems focused on employees managing, like their salaries, working days, among others.'
+        text: 'I helped on the maintenance and migration to a more recent version of one of their systems focused on employees managing.'
     },
     {
         id: 'tsystems-second-practices',

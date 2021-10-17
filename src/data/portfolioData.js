@@ -8,10 +8,6 @@ const portfolioData = [
         type: 'portfolio.work',
         client: 'Humanly Software',
         filter: 'work',
-        url: {
-            urlTitle: 'https://ac-labs.com.mx/htds/',
-            href: 'https://ac-labs.com.mx/htds/'
-        },
         images: [
             {
                 id: 'htds_img_1',

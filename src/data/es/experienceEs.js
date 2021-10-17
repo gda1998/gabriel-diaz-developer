@@ -11,7 +11,7 @@ const experienceEs = [
         title: 'Desarrollador Web',
         dates: '16/07/2020 - 15/09/2020',
         place: 'Humanly Software,',
-        text: 'Apoyo en el mantenimiento y migración a una versión más reciente de uno de sus sistemas enfocado a la gestión del personal, como sus sueldos, jornadas laborales, entre otros.'
+        text: 'Apoyo en el mantenimiento y migración a una versión más reciente de uno de sus sistemas enfocado a la gestión del personal.'
     },
     {
         id: 'tsystems-second-practices',

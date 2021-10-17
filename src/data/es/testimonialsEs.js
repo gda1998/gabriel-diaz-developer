@@ -8,7 +8,7 @@ const testimonialsEs = [
     },
     {
         id: 'testimonial-fer',
-        testimonial: 'Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.', 
+        testimonial: 'He tenido la oportunidad de trabajar con Gabriel y puedo decir que es una persona responsable y comprometido hacia su trabajo. Demostrando ser un buen compañero de trabajo y excelente persona con grandes valores, manifestando preocupación por mejorar, capacitarse y actualizar sus conocimientos.', 
         imgPath: 'assets/img/testimonials/fer.jpg', 
         name: 'Fernanda Rojas Paz', 
         position: 'Desarrolladora web'
@@ -22,8 +22,8 @@ const testimonialsEs = [
     },
     {
         id: 'testimonial-profa-norma',
-        testimonial: 'Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.', 
-        imgPath: 'assets/img/testimonials/testimonials-2.jpg', 
+        testimonial: 'Gabriel es un programador muy disciplinado al trabajar, su persistencia le ayuda a buscar y encontrar la solución a diferentes problemáticas, además de ser creativo y organizado lo cual le da un toque diferente a cualquier proyecto de software que emprende.', 
+        imgPath: 'assets/img/testimonials/profa-norma.jpg', 
         name: 'Norma Roldán Oropeza', 
         position: 'Docente'
     },

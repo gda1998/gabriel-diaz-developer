@@ -59,13 +59,13 @@
         "introduction" : "Introduction",
         "education" : "Education",
         "experience" : "Professional Experience",
-        "sumary-text" : "Graduated of one of the most importants universities from the Puebla City, Mexico, I've been trained to can design and develop web applications using free and high level technologies like {{ web_tools }} among others. <br/>Personally, I'm a responsible person, self-taught and a perfectionist with the work I do."
+        "sumary-text" : "Graduated of one of the most importants universities from the Puebla City, Mexico, I've been trained to can design and develop web applications using free and high level technologies like {{ web_tools }} among others. <br/>Personally, I'm a responsible person, self-taught and a perfectionist with my work."
     },
     "services" : {
         "my-services" : "My Services",
         "back-end" : "Back End Development",
         "front-end" : "Front End Development",
-        "back-end-text" : "Transform your business logic into the internal logic and operation of your web app.",
+        "back-end-text" : "Transform your business idea into the internal logic and operation of your web app.",
         "front-end-text" : "Convert your web app into a easy and simple interaction system between the final user and the server."
     },
     "portfolio" : {
@@ -93,7 +93,7 @@
         "social-profiles" : "My Social Profiles",
         "email-me" : "Email me",
         "call-me" : "Call me",
-        "header-text" : "If you have a project in mind, do not hesitate to send me a message through my social profiles, my cell phone or by email using the form below. 😉"
+        "header-text" : "If you have a project in mind, ¡Don't hesitate to send me a message! Either through my social profiles, my cell phone or by email using the form below. 😉"
     },
     "form" : {
         "your-name" : "Your Name",

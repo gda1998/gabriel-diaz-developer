@@ -13,7 +13,7 @@ const socialNetworks = [
     },
     {
         icon: 'bi bi-instagram',
-        url: 'https://www.instagram.com/gda1998_dev/'
+        url: 'https://www.instagram.com/gda1998/'
     },
     {
         icon: 'ri-spotify-fill',
