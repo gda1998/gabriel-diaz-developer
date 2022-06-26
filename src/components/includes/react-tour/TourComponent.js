@@ -54,5 +54,5 @@ TourComponent.propTypes = {
 }
 
 TourComponent.defaultProps = {
-    useModalOverlay: true
+    useModalOverlay: false
 }
