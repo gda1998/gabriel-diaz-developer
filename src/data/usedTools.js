@@ -15,6 +15,11 @@ const usedTools = {
         toolName: 'Symfony',
         path: 'https://cdn.svgporn.com/logos/symfony.svg'
     },
+    livewire: {
+        id: 'tool_livewire',
+        toolName: 'Livewire',
+        path: 'assets/img/web-tools/livewire.svg'
+    },
 
     // * JS and Libraries
     js: {
@@ -48,6 +53,11 @@ const usedTools = {
         id: 'tool_sql_server',
         toolName: 'SQL Server',
         path: 'assets/img/web-tools/sql-server.svg'
+    },
+    firebase: {
+        id: 'tool_firebase',
+        toolName: 'Firebase',
+        path: 'https://cdn.svgporn.com/logos/firebase.svg'
     },
 
     // * Design 

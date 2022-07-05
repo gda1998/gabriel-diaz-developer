@@ -114,7 +114,7 @@ const tourDataEn = {
                         text: '<i class="bi bi-caret-right-fill"></i>'
                     }
                 ],
-                text: 'Touch the pictura and then touch the chain icon to view the project details.',
+                text: 'Touch the pictur and then touch the chain icon to view the project details.',
             },
             {
                 advanceOn: { selector: '.modal-body', event: 'click' },

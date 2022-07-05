@@ -2,6 +2,160 @@ import usedTools from './usedTools';
 
 const portfolioData = [
     {
+        id: 'spmg_project',
+        path: 'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg',
+        title: 'SPMG',
+        type: 'portfolio.work',
+        filter: 'work',
+        images: [
+            {
+                id: 'spmg_img_1',
+                title: 'SPMG 1',
+                path: 'assets/img/portfolio/heroes-app/HEROES-APP-1.png',
+                isActive: true
+            },
+            {
+                id: 'spmg_img_2',
+                title: 'SPMG 2',
+                path: 'assets/img/portfolio/heroes-app/HEROES-APP-2.png'
+            },
+        ],
+        used_tools: {
+            func: [
+                usedTools.php,
+                usedTools.laravel,
+                usedTools.livewire,
+                usedTools.js,
+                usedTools.jquery,
+            ],
+            db: [ usedTools.mysql ],
+            design: [
+                usedTools.html,
+                usedTools.css,
+                usedTools.bootstrap
+            ]
+        }
+    },
+    {
+        id: 'journal_app',
+        path: 'https://images.ctfassets.net/hrltx12pl8hq/7JnR6tVVwDyUM8Cbci3GtJ/bf74366cff2ba271471725d0b0ef418c/shutterstock_376532611-og.jpg',
+        title: 'Journal App',
+        type: 'portfolio.hobby',
+        filter: 'hobby',
+        // url: {
+        //     urlTitle: 'https://gda-heroes.netlify.app/',
+        //     href: 'https://gda-heroes.netlify.app/login'
+        // },
+        images: [
+            {
+                id: 'journal_app_img_1',
+                title: 'Journal App 1',
+                path: 'assets/img/portfolio/heroes-app/HEROES-APP-1.png',
+                isActive: true
+            },
+            {
+                id: 'journal_app_img_2',
+                title: 'Journal App 2',
+                path: 'assets/img/portfolio/heroes-app/HEROES-APP-2.png'
+            },
+        ],
+        used_tools: {
+            func: [
+                usedTools.js,
+                usedTools.react
+            ],
+            db: [ usedTools.firebase ],
+            design: [
+                usedTools.html,
+                usedTools.css,
+            ]
+        }
+    },
+    {
+        id: 'heroes_app',
+        path: 'assets/img/portfolio/covers/HEROES-APP.png',
+        title: 'Heroes App',
+        type: 'portfolio.hobby',
+        filter: 'hobby',
+        url: {
+            urlTitle: 'https://gda-heroes.netlify.app/',
+            href: 'https://gda-heroes.netlify.app/login'
+        },
+        images: [
+            {
+                id: 'heroes_app_img_1',
+                title: 'Heroes App 1',
+                path: 'assets/img/portfolio/heroes-app/HEROES-APP-1.png',
+                isActive: true
+            },
+            {
+                id: 'heroes_app_img_2',
+                title: 'Heroes App 2',
+                path: 'assets/img/portfolio/heroes-app/HEROES-APP-2.png'
+            },
+            {
+                id: 'heroes_app_img_3',
+                title: 'Heroes App 3',
+                path: 'assets/img/portfolio/heroes-app/HEROES-APP-3.png'
+            },
+            {
+                id: 'heroes_app_img_4',
+                title: 'Heroes App 4',
+                path: 'assets/img/portfolio/heroes-app/HEROES-APP-4.png'
+            }
+        ],
+        used_tools: {
+            func: [
+                usedTools.js,
+                usedTools.react
+            ],
+            design: [
+                usedTools.html,
+                usedTools.css,
+                usedTools.bootstrap
+            ]
+        }
+    },
+    {
+        id: 'gif_app',
+        path: 'assets/img/portfolio/covers/GIF-APP.png',
+        title: 'Gif App',
+        type: 'portfolio.hobby',
+        filter: 'hobby',
+        url: {
+            urlTitle: 'https://gda1998.github.io/react-gifexpertapp/',
+            href: 'https://gda1998.github.io/react-gifexpertapp/'
+        },
+        images: [
+            {
+                id: 'gif_app_img_1',
+                title: 'Gif App 1',
+                path: 'assets/img/portfolio/gif-app/GIF-APP-1.png',
+                isActive: true
+            },
+            {
+                id: 'gif_app_img_2',
+                title: 'Gif App 2',
+                path: 'assets/img/portfolio/gif-app/GIF-APP-2.png'
+            },
+            {
+                id: 'gif_app_img_3',
+                title: 'Gif App 3',
+                path: 'assets/img/portfolio/gif-app/GIF-APP-3.png'
+            }
+        ],
+        used_tools: {
+            func: [
+                usedTools.js,
+                usedTools.react
+            ],
+            design: [
+                usedTools.html,
+                usedTools.css
+            ]
+        }
+    },
+    {
         id: 'htds_project',
         path: 'assets/img/portfolio/covers/HTDS.png',
         title: 'HTDS',
@@ -309,90 +463,6 @@ const portfolioData = [
             design: [ usedTools.c_sharp_1 ]
         }
     },
-    {
-        id: 'heroes_app',
-        path: 'assets/img/portfolio/covers/HEROES-APP.png',
-        title: 'Heroes App',
-        type: 'portfolio.hobby',
-        filter: 'hobby',
-        url: {
-            urlTitle: 'https://gda-heroes.netlify.app/',
-            href: 'https://gda-heroes.netlify.app/login'
-        },
-        images: [
-            {
-                id: 'heroes_app_img_1',
-                title: 'Heroes App 1',
-                path: 'assets/img/portfolio/heroes-app/HEROES-APP-1.png',
-                isActive: true
-            },
-            {
-                id: 'heroes_app_img_2',
-                title: 'Heroes App 2',
-                path: 'assets/img/portfolio/heroes-app/HEROES-APP-2.png'
-            },
-            {
-                id: 'heroes_app_img_3',
-                title: 'Heroes App 3',
-                path: 'assets/img/portfolio/heroes-app/HEROES-APP-3.png'
-            },
-            {
-                id: 'heroes_app_img_4',
-                title: 'Heroes App 4',
-                path: 'assets/img/portfolio/heroes-app/HEROES-APP-4.png'
-            }
-        ],
-        used_tools: {
-            func: [
-                usedTools.js,
-                usedTools.react
-            ],
-            design: [
-                usedTools.html,
-                usedTools.css,
-                usedTools.bootstrap
-            ]
-        }
-    },
-    {
-        id: 'gif_app',
-        path: 'assets/img/portfolio/covers/GIF-APP.png',
-        title: 'Gif App',
-        type: 'portfolio.hobby',
-        filter: 'hobby',
-        url: {
-            urlTitle: 'https://gda1998.github.io/react-gifexpertapp/',
-            href: 'https://gda1998.github.io/react-gifexpertapp/'
-        },
-        images: [
-            {
-                id: 'gif_app_img_1',
-                title: 'Gif App 1',
-                path: 'assets/img/portfolio/gif-app/GIF-APP-1.png',
-                isActive: true
-            },
-            {
-                id: 'gif_app_img_2',
-                title: 'Gif App 2',
-                path: 'assets/img/portfolio/gif-app/GIF-APP-2.png'
-            },
-            {
-                id: 'gif_app_img_3',
-                title: 'Gif App 3',
-                path: 'assets/img/portfolio/gif-app/GIF-APP-3.png'
-            }
-        ],
-        used_tools: {
-            func: [
-                usedTools.js,
-                usedTools.react
-            ],
-            design: [
-                usedTools.html,
-                usedTools.css
-            ]
-        }
-    }
 ];
 
 export default portfolioData;

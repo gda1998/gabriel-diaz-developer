@@ -1,10 +1,17 @@
 const experienceEn = [
     {
+        id: 'sisadesel-job',
+        title: 'Web Developer',
+        dates: '03/28/2022 - 07/01/2022',
+        place: 'Sisadesel,',
+        text: 'I was working on a system focused on sending mass emails through the communication of several api\'s.'
+    },
+    {
         id: 'eks-practices',
         title: 'Web Developer (Training)',
-        dates: '05/13/2021 - Today',
+        dates: '05/13/2021 - 03/25/2022',
         place: 'EKS Solutions,',
-        text: 'I’m helping to carry out detections and corrections of problems of the systems of a client of the company EKS Solutions, using Oracle tools.'
+        text: 'I helped to carry out detections and corrections of problems of the systems of a client of the EKS Solutions company, using Oracle tools.'
     },
     {
         id: 'humanly-job',

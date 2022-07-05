@@ -24,7 +24,7 @@ export const Header = ({ isHome=false }) => {
         // ======= Header =======
         <header id="header" className={ !isHome ? 'header-top' : '' }>
 
-            { isHome && <TourComponent useModalOverlay={ false } pageName="home" type={ types.home } /> }
+            { isHome && <TourComponent pageName="home" type={ types.home } /> }
             
             <div className="container">
                 <h1> <Link to="/home">Gabriel Díaz</Link> </h1>

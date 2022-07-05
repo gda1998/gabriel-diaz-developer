@@ -1,8 +1,15 @@
 const experienceEs = [
     {
+        id: 'sisadesel-job',
+        title: 'Desarrollador Web',
+        dates: '28/03/2022 - 01/07/2022',
+        place: 'Sisadesel,',
+        text: 'Trabajé en un sistema que está enfocado al envío masivo de correos electrónicos a través de la comunicación de varias apis.'
+    },
+    {
         id: 'eks-practices',
         title: 'Desarrollador Web (Entrenamiento)',
-        dates: '13/05/2021 - Actualmente',
+        dates: '13/05/2021 - 25/03/2022',
         place: 'EKS Solutions,',
         text: 'Apoyo en la detección y corrección de problemas de los sistemas de uno de los clientes de la empresa EKS Solutions, utilizando herramientas de Oracle.'
     },

@@ -5,7 +5,7 @@ const personalInfo = [
     },
     {
         name: 'about.age',
-        value : '23'
+        value : '24'
     },
     {
         name: 'about.phone',

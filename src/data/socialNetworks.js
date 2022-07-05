@@ -4,6 +4,10 @@ const socialNetworks = [
         url: 'https://api.whatsapp.com/send?phone=522222520342&text=Hola%20Gabriel.%20Vengo%20de%20tu%20p%C3%A1gina%20web%20y%20quisiera%20platicar%20contigo%20para%20una%20idea%20de%20un%20sitio%20web.'
     },
     {
+        icon: 'bi bi-skype',
+        url: 'https://join.skype.com/invite/oWzP4nA7cgwo'
+    },
+    {
         icon: 'bi bi-linkedin',
         url: 'https://www.linkedin.com/in/gabriel-diaz-amador/'
     },
@@ -12,11 +16,7 @@ const socialNetworks = [
         url: 'https://www.facebook.com/gabriel.diazamador.98/'
     },
     {
-        icon: 'bi bi-instagram',
-        url: 'https://www.instagram.com/gda1998/'
-    },
-    {
-        icon: 'ri-spotify-fill',
+        icon: 'bi bi-spotify',
         url: 'https://open.spotify.com/user/w1m781a1w6w5isk893j2ktu0m'
     }
 ];
