@@ -1,5 +1,12 @@
 const experienceEn = [
     {
+        id: 'american-school-job',
+        title: 'Web Developer',
+        dates: '07/18/2022 - Today',
+        place: 'Puebla American School,',
+        text: 'I am currently working on the analysis, development and implementation of the systems that are required in the school, as well as the correction of other systems.'
+    },
+    {
         id: 'sisadesel-job',
         title: 'Web Developer',
         dates: '03/28/2022 - 07/01/2022',

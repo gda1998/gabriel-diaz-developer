@@ -1,10 +1,10 @@
 const testimonialsEn = [
     {
-        id: 'testimonial-emma',
-        testimonial: 'I know Gabriel since years ago and I can say he is a partner committed with his work tasks with extensive knowledges about programming, databases and web developing, in addition to showing your patience in times of frustration.', 
-        imgPath: 'assets/img/testimonials/emma.jpg', 
-        name: 'David Ramos Yautenzi', 
-        position: 'Systems analyst'
+        id: 'testimonial-arturo',
+        testimonial: 'Gabriel is a great trustworthy person, with the aptitude and ability to face any responsibility that you have left. Also, I can assure you that he has an advanced command of current web development tools.',
+        imgPath: 'assets/img/testimonials/arturo.jpg',
+        name: 'José Arturo de los Ángeles', 
+        position: 'Project Manager'
     },
     {
         id: 'testimonial-fer',
@@ -14,11 +14,11 @@ const testimonialsEn = [
         position: 'Web Developer'
     },
     {
-        id: 'testimonial-alex',
-        testimonial: 'Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.',
-        imgPath: 'assets/img/testimonials/testimonials-1.jpg',
-        name: 'Alejandro Rivera Urrutia', 
-        position: 'Team Leader CCO, T-Systems México'
+        id: 'testimonial-emma',
+        testimonial: 'I know Gabriel since years ago and I can say he is a partner committed with his work tasks with extensive knowledges about programming, databases and web developing, in addition to showing your patience in times of frustration.', 
+        imgPath: 'assets/img/testimonials/emma.jpg', 
+        name: 'David Ramos Yautenzi', 
+        position: 'Systems analyst'
     },
     {
         id: 'testimonial-profa-norma',

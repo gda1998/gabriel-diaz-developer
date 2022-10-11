@@ -1,10 +1,10 @@
 const testimonialsEs = [
     {
-        id: 'testimonial-emma',
-        testimonial: 'Conozco a Gabriel desde hace años y puedo decir que es un compañero comprometido con sus tareas laborales con amplios conocimientos sobre la programación, base de datos y desarrollo web, además de que hace notar su paciencia en momentos de frustración.', 
-        imgPath: 'assets/img/testimonials/emma.jpg', 
-        name: 'David Ramos Yautenzi', 
-        position: 'Analista de sistemas'
+        id: 'testimonial-arturo',
+        testimonial: 'Gabriel es una gran persona digna de confianza, con la aptitud y capacidad para afrontar cualquier responsabilidad que se deje a su cargo. Así mismo, puedo asegurar que posee un dominio avanzado de las herramientas y de las técnicas actuales de desarrollo de aplicaciones web.',
+        imgPath: 'assets/img/testimonials/arturo.jpg',
+        name: 'José Arturo de los Ángeles', 
+        position: 'Líder de proyectos'
     },
     {
         id: 'testimonial-fer',
@@ -14,11 +14,11 @@ const testimonialsEs = [
         position: 'Desarrolladora web'
     },
     {
-        id: 'testimonial-alex',
-        testimonial: 'Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.',
-        imgPath: 'assets/img/testimonials/testimonials-1.jpg',
-        name: 'Alejandro Rivera Urrutia', 
-        position: 'Team Leader CCO, T-Systems México'
+        id: 'testimonial-emma',
+        testimonial: 'Conozco a Gabriel desde hace años y puedo decir que es un compañero comprometido con sus tareas laborales con amplios conocimientos sobre la programación, base de datos y desarrollo web, además de que hace notar su paciencia en momentos de frustración.', 
+        imgPath: 'assets/img/testimonials/emma.jpg', 
+        name: 'David Ramos Yautenzi', 
+        position: 'Analista de sistemas'
     },
     {
         id: 'testimonial-profa-norma',

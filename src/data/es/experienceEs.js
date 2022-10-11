@@ -1,5 +1,12 @@
 const experienceEs = [
     {
+        id: 'american-school-job',
+        title: 'Desarrollador Web',
+        dates: '18/07/2022 - Actualidad',
+        place: 'Colegio Americano de Puebla,',
+        text: 'Actualmente me encuentro trabajando en el análisis, desarrollo e implementación de sistemas que se vayan requiriendo en el colegio, así como también en la corrección de otros sistemas.'
+    },
+    {
         id: 'sisadesel-job',
         title: 'Desarrollador Web',
         dates: '28/03/2022 - 01/07/2022',

@@ -3,7 +3,7 @@ import usedTools from './usedTools';
 const portfolioData = [
     {
         id: 'spmg_project',
-        path: 'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg',
+        path: 'assets/img/portfolio/covers/SPMG.jpeg',
         title: 'SPMG',
         type: 'portfolio.work',
         filter: 'work',
@@ -11,13 +11,103 @@ const portfolioData = [
             {
                 id: 'spmg_img_1',
                 title: 'SPMG 1',
-                path: 'assets/img/portfolio/heroes-app/HEROES-APP-1.png',
+                path: 'assets/img/portfolio/spmg/SPMG-1.png',
                 isActive: true
             },
             {
                 id: 'spmg_img_2',
                 title: 'SPMG 2',
-                path: 'assets/img/portfolio/heroes-app/HEROES-APP-2.png'
+                path: 'assets/img/portfolio/spmg/SPMG-2.png'
+            },
+            {
+                id: 'spmg_img_3',
+                title: 'SPMG 3',
+                path: 'assets/img/portfolio/spmg/SPMG-3.png'
+            },
+            {
+                id: 'spmg_img_4',
+                title: 'SPMG 4',
+                path: 'assets/img/portfolio/spmg/SPMG-4.png'
+            },
+            {
+                id: 'spmg_img_5',
+                title: 'SPMG 5',
+                path: 'assets/img/portfolio/spmg/SPMG-5.png'
+            },
+            {
+                id: 'spmg_img_6',
+                title: 'SPMG 6',
+                path: 'assets/img/portfolio/spmg/SPMG-6.png'
+            },
+            {
+                id: 'spmg_img_7',
+                title: 'SPMG 7',
+                path: 'assets/img/portfolio/spmg/SPMG-7.png'
+            },
+            {
+                id: 'spmg_img_8',
+                title: 'SPMG 8',
+                path: 'assets/img/portfolio/spmg/SPMG-8.png'
+            },
+            {
+                id: 'spmg_img_9',
+                title: 'SPMG 9',
+                path: 'assets/img/portfolio/spmg/SPMG-9.png'
+            },
+            {
+                id: 'spmg_img_10',
+                title: 'SPMG 10',
+                path: 'assets/img/portfolio/spmg/SPMG-10.png'
+            },
+            {
+                id: 'spmg_img_11',
+                title: 'SPMG 11',
+                path: 'assets/img/portfolio/spmg/SPMG-11.png'
+            },
+            {
+                id: 'spmg_img_12',
+                title: 'SPMG 12',
+                path: 'assets/img/portfolio/spmg/SPMG-12.png'
+            },
+            {
+                id: 'spmg_img_13',
+                title: 'SPMG 13',
+                path: 'assets/img/portfolio/spmg/SPMG-13.png'
+            },
+            {
+                id: 'spmg_img_14',
+                title: 'SPMG 14',
+                path: 'assets/img/portfolio/spmg/SPMG-14.png'
+            },
+            {
+                id: 'spmg_img_15',
+                title: 'SPMG 15',
+                path: 'assets/img/portfolio/spmg/SPMG-15.png'
+            },
+            {
+                id: 'spmg_img_16',
+                title: 'SPMG 16',
+                path: 'assets/img/portfolio/spmg/SPMG-16.png'
+            },
+            {
+                id: 'spmg_img_17',
+                title: 'SPMG 17',
+                path: 'assets/img/portfolio/spmg/SPMG-17.png'
+            },
+            {
+                id: 'spmg_img_18',
+                title: 'SPMG 18',
+                path: 'assets/img/portfolio/spmg/SPMG-18.png'
+            },
+            {
+                id: 'spmg_img_19',
+                title: 'SPMG 19',
+                path: 'assets/img/portfolio/spmg/SPMG-19.png'
+            },
+            {
+                id: 'spmg_img_20',
+                title: 'SPMG 20',
+                path: 'assets/img/portfolio/spmg/SPMG-20.png'
             },
         ],
         used_tools: {
@@ -38,7 +128,7 @@ const portfolioData = [
     },
     {
         id: 'journal_app',
-        path: 'https://images.ctfassets.net/hrltx12pl8hq/7JnR6tVVwDyUM8Cbci3GtJ/bf74366cff2ba271471725d0b0ef418c/shutterstock_376532611-og.jpg',
+        path: 'assets/img/portfolio/covers/JOURNAL-APP.jpeg',
         title: 'Journal App',
         type: 'portfolio.hobby',
         filter: 'hobby',
@@ -50,13 +140,53 @@ const portfolioData = [
             {
                 id: 'journal_app_img_1',
                 title: 'Journal App 1',
-                path: 'assets/img/portfolio/heroes-app/HEROES-APP-1.png',
+                path: 'assets/img/portfolio/journal-app/JOURNAL-APP-1.png',
                 isActive: true
             },
             {
                 id: 'journal_app_img_2',
                 title: 'Journal App 2',
-                path: 'assets/img/portfolio/heroes-app/HEROES-APP-2.png'
+                path: 'assets/img/portfolio/journal-app/JOURNAL-APP-2.png'
+            },
+            {
+                id: 'journal_app_img_3',
+                title: 'Journal App 3',
+                path: 'assets/img/portfolio/journal-app/JOURNAL-APP-3.png'
+            },
+            {
+                id: 'journal_app_img_4',
+                title: 'Journal App 4',
+                path: 'assets/img/portfolio/journal-app/JOURNAL-APP-4.png'
+            },
+            {
+                id: 'journal_app_img_5',
+                title: 'Journal App 5',
+                path: 'assets/img/portfolio/journal-app/JOURNAL-APP-5.png'
+            },
+            {
+                id: 'journal_app_img_6',
+                title: 'Journal App 6',
+                path: 'assets/img/portfolio/journal-app/JOURNAL-APP-6.png'
+            },
+            {
+                id: 'journal_app_img_7',
+                title: 'Journal App 7',
+                path: 'assets/img/portfolio/journal-app/JOURNAL-APP-7.png'
+            },
+            {
+                id: 'journal_app_img_8',
+                title: 'Journal App 8',
+                path: 'assets/img/portfolio/journal-app/JOURNAL-APP-8.png'
+            },
+            {
+                id: 'journal_app_img_9',
+                title: 'Journal App 9',
+                path: 'assets/img/portfolio/journal-app/JOURNAL-APP-9.png'
+            },
+            {
+                id: 'journal_app_img_10',
+                title: 'Journal App 10',
+                path: 'assets/img/portfolio/journal-app/JOURNAL-APP-10.png'
             },
         ],
         used_tools: {
