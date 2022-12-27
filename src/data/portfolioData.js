@@ -132,10 +132,10 @@ const portfolioData = [
         title: 'Journal App',
         type: 'portfolio.hobby',
         filter: 'hobby',
-        // url: {
-        //     urlTitle: 'https://gda-heroes.netlify.app/',
-        //     href: 'https://gda-heroes.netlify.app/login'
-        // },
+        url: {
+            urlTitle: 'https://gda-journal.netlify.app/',
+            href: 'https://gda-journal.netlify.app/auth/login'
+        },
         images: [
             {
                 id: 'journal_app_img_1',
